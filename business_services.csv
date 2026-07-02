@@ -1,0 +1,721 @@
+business_service_id,business_service_name,business_unit,service_tier,customer_facing,annual_revenue_supported_eur,rto_hours,rpo_hours,regulatory_scope,executive_owner
+BS000001,Enterprise Reporting Service 0001,Commercial Banking,Tier 3,True,11022413.55,72,24.0,HIPAA,EVP Commercial Banking
+BS000002,Global Reporting Service 0002,Security,Tier 1,False,137969255.16,4,1.0,DORA,EVP Security
+BS000003,Regulated Policy Service 0003,Digital Channels,Tier 1,False,66714242.13,4,1.0,SOX,EVP Digital Channels
+BS000004,Digital Data Service 0004,HR,Tier 1,False,32786553.06,4,1.0,NIS2;GDPR;DORA,EVP HR
+BS000005,Critical Data Service 0005,HR,Tier 2,False,10776421.29,24,8.0,GDPR;Internal Audit;PCI-DSS,EVP HR
+BS000006,Shared Data Service 0006,Infrastructure,Tier 2,False,11110976.79,24,8.0,PCI-DSS;GDPR;HIPAA,EVP Infrastructure
+BS000007,Critical Payments Service 0007,Commercial Banking,Tier 3,False,25661981.02,72,24.0,PCI-DSS;HIPAA;SOX,EVP Commercial Banking
+BS000008,Operational Trading Service 0008,Digital Channels,Tier 2,False,34024315.23,24,8.0,SOX,EVP Digital Channels
+BS000009,Core Trading Service 0009,Payments,Tier 2,True,6593670.58,24,8.0,NIS2;SOX,EVP Payments
+BS000010,Enterprise Payments Service 0010,Commercial Banking,Tier 3,False,18627114.22,72,24.0,HIPAA;DORA;PCI-DSS,EVP Commercial Banking
+BS000011,Regulated Settlement Service 0011,Supply Chain,Tier 3,True,1914981.41,72,24.0,GDPR,EVP Supply Chain
+BS000012,Digital Trading Service 0012,M&A Office,Tier 1,False,40656603.46,4,1.0,DORA,EVP M&A Office
+BS000013,Customer Warehouse Service 0013,Data & Analytics,Tier 2,False,41382314.69,24,8.0,NIS2,EVP Data & Analytics
+BS000014,Operational Settlement Service 0014,Data & Analytics,Tier 2,False,13149897.35,24,8.0,DORA;HIPAA;SOX,EVP Data & Analytics
+BS000015,Customer Fulfilment Service 0015,Data & Analytics,Tier 1,False,237568452.43,4,1.0,DORA,EVP Data & Analytics
+BS000016,Enterprise Workforce Service 0016,Security,Tier 1,False,12218043.26,4,1.0,SOX,EVP Security
+BS000017,Core Portal Service 0017,Supply Chain,Tier 3,True,22729733.17,72,24.0,GDPR;PCI-DSS,EVP Supply Chain
+BS000018,Regulated Procurement Service 0018,Insurance,Tier 2,False,17202973.05,24,8.0,Operational Resilience;Internal Audit;SOX,EVP Insurance
+BS000019,Shared Procurement Service 0019,Infrastructure,Tier 2,False,16025192.38,24,8.0,Internal Audit,EVP Infrastructure
+BS000020,Core Reporting Service 0020,HR,Tier 3,True,15779869.69,72,24.0,Internal Audit;HIPAA,EVP HR
+BS000021,Operational Compliance Service 0021,Supply Chain,Tier 2,True,20131886.98,24,8.0,Internal Audit;DORA;GDPR,EVP Supply Chain
+BS000022,Regulated Procurement Service 0022,Risk,Tier 3,False,45478698.88,72,24.0,SOX;GDPR,EVP Risk
+BS000023,Regulated Workforce Service 0023,Payments,Tier 3,False,81450811.81,72,24.0,Internal Audit;HIPAA;DORA,EVP Payments
+BS000024,Critical Reporting Service 0024,Legal,Tier 2,False,17850190.37,24,8.0,DORA;Internal Audit;NIS2,EVP Legal
+BS000025,Regulated Warehouse Service 0025,Security,Tier 2,True,43874668.29,24,8.0,DORA,EVP Security
+BS000026,Global Payments Service 0026,Customer Operations,Tier 3,False,8269266.42,72,24.0,Internal Audit,EVP Customer Operations
+BS000027,Enterprise Workforce Service 0027,Risk,Tier 2,True,41555938.7,24,8.0,HIPAA;SOX;PCI-DSS,EVP Risk
+BS000028,Critical Procurement Service 0028,Security,Tier 3,False,7739203.43,72,24.0,SOX;GDPR,EVP Security
+BS000029,Shared Compliance Service 0029,Manufacturing,Tier 1,False,106911569.2,4,1.0,HIPAA,EVP Manufacturing
+BS000030,Digital Procurement Service 0030,HR,Tier 3,True,203607558.28,72,24.0,Operational Resilience;DORA;Internal Audit,EVP HR
+BS000031,Shared Procurement Service 0031,HR,Tier 2,True,15645716.37,24,8.0,DORA,EVP HR
+BS000032,Regulated Treasury Service 0032,Payments,Tier 1,True,2887751.77,4,1.0,Internal Audit;HIPAA;GDPR,EVP Payments
+BS000033,Shared Procurement Service 0033,Commercial Banking,Tier 2,False,9792425.86,24,8.0,PCI-DSS;NIS2,EVP Commercial Banking
+BS000034,Shared Ledger Service 0034,Manufacturing,Tier 2,False,69376770.31,24,8.0,GDPR;DORA;Operational Resilience,EVP Manufacturing
+BS000035,Enterprise Settlement Service 0035,Legal,Tier 0,False,115081074.57,1,0.25,NIS2;DORA,EVP Legal
+BS000036,Global Payments Service 0036,Commercial Banking,Tier 2,True,23530428.2,24,8.0,HIPAA;NIS2,EVP Commercial Banking
+BS000037,Shared Claims Service 0037,Infrastructure,Tier 3,True,54272878.86,72,24.0,NIS2,EVP Infrastructure
+BS000038,Critical Trading Service 0038,Infrastructure,Tier 1,False,54881421.79,4,1.0,NIS2;GDPR,EVP Infrastructure
+BS000039,Digital Portal Service 0039,Wealth,Tier 2,False,68305285.37,24,8.0,SOX;PCI-DSS,EVP Wealth
+BS000040,Shared Warehouse Service 0040,Customer Operations,Tier 2,False,49198123.69,24,8.0,Operational Resilience;PCI-DSS;NIS2,EVP Customer Operations
+BS000041,Operational Claims Service 0041,Insurance,Tier 2,False,95426845.67,24,8.0,GDPR;NIS2;PCI-DSS,EVP Insurance
+BS000042,Regional Risk Service 0042,Data & Analytics,Tier 3,True,26553594.76,72,24.0,SOX;Operational Resilience;HIPAA,EVP Data & Analytics
+BS000043,Regulated Ledger Service 0043,Digital Channels,Tier 3,False,48437523.08,72,24.0,PCI-DSS,EVP Digital Channels
+BS000044,Global Compliance Service 0044,Risk,Tier 1,True,22975681.41,4,1.0,GDPR;PCI-DSS;SOX,EVP Risk
+BS000045,Regulated Ledger Service 0045,Commercial Banking,Tier 3,False,9233909.74,72,24.0,Internal Audit;DORA,EVP Commercial Banking
+BS000046,Enterprise Reporting Service 0046,M&A Office,Tier 3,False,116971913.04,72,24.0,GDPR,EVP M&A Office
+BS000047,Global Customer Service 0047,HR,Tier 1,False,40857943.21,4,1.0,SOX,EVP HR
+BS000048,Digital Reporting Service 0048,Legal,Tier 3,False,43373908.1,72,24.0,GDPR,EVP Legal
+BS000049,Digital Trading Service 0049,Digital Channels,Tier 1,False,36906589.89,4,1.0,Internal Audit;SOX,EVP Digital Channels
+BS000050,Regional Portal Service 0050,Security,Tier 3,False,9386966.89,72,24.0,PCI-DSS;NIS2,EVP Security
+BS000051,Global Settlement Service 0051,Data & Analytics,Tier 2,False,18111926.14,24,8.0,GDPR;Operational Resilience;NIS2,EVP Data & Analytics
+BS000052,Regional Compliance Service 0052,Payments,Tier 2,True,86841347.47,24,8.0,DORA;SOX;GDPR,EVP Payments
+BS000053,Regulated Workforce Service 0053,Risk,Tier 1,True,59325556.84,4,1.0,PCI-DSS;GDPR,EVP Risk
+BS000054,Global Portal Service 0054,HR,Tier 3,False,2723366.96,72,24.0,GDPR;DORA,EVP HR
+BS000055,Enterprise Fulfilment Service 0055,Supply Chain,Tier 0,False,49426341.37,1,0.25,Internal Audit,EVP Supply Chain
+BS000056,Digital Treasury Service 0056,Retail Banking,Tier 1,True,228788793.52,4,1.0,DORA;Operational Resilience,EVP Retail Banking
+BS000057,Customer Settlement Service 0057,Manufacturing,Tier 1,False,25459769.99,4,1.0,NIS2,EVP Manufacturing
+BS000058,Operational Billing Service 0058,Insurance,Tier 3,True,2469369.56,72,24.0,HIPAA;SOX,EVP Insurance
+BS000059,Digital Billing Service 0059,Data & Analytics,Tier 1,True,258431296.46,4,1.0,DORA;HIPAA,EVP Data & Analytics
+BS000060,Critical Billing Service 0060,Digital Channels,Tier 3,False,37906446.99,72,24.0,SOX;GDPR,EVP Digital Channels
+BS000061,Critical Risk Service 0061,Legal,Tier 2,False,16568036.01,24,8.0,GDPR,EVP Legal
+BS000062,Operational Treasury Service 0062,Data & Analytics,Tier 0,False,41624665.04,1,0.25,Operational Resilience,EVP Data & Analytics
+BS000063,Core Treasury Service 0063,Risk,Tier 0,False,205992453.24,1,0.25,Operational Resilience;HIPAA,EVP Risk
+BS000064,Global Workforce Service 0064,M&A Office,Tier 0,False,34503841.65,1,0.25,NIS2;PCI-DSS,EVP M&A Office
+BS000065,Digital Reporting Service 0065,Risk,Tier 2,False,63280138.3,24,8.0,Internal Audit;SOX;Operational Resilience,EVP Risk
+BS000066,Operational Pricing Service 0066,Finance,Tier 3,False,32489087.26,72,24.0,GDPR,EVP Finance
+BS000067,Enterprise Compliance Service 0067,Legal,Tier 1,False,42158074.21,4,1.0,HIPAA;GDPR;DORA,EVP Legal
+BS000068,Digital Settlement Service 0068,Risk,Tier 3,False,21000699.11,72,24.0,DORA;NIS2,EVP Risk
+BS000069,Digital Workforce Service 0069,Commercial Banking,Tier 0,False,51665361.68,1,0.25,Operational Resilience;HIPAA;DORA,EVP Commercial Banking
+BS000070,Critical Fulfilment Service 0070,HR,Tier 3,False,56525596.69,72,24.0,HIPAA,EVP HR
+BS000071,Regional Customer Service 0071,Security,Tier 3,True,6907531.42,72,24.0,Operational Resilience;PCI-DSS,EVP Security
+BS000072,Regulated Trading Service 0072,Payments,Tier 3,False,3005283.19,72,24.0,HIPAA;SOX,EVP Payments
+BS000073,Regional Treasury Service 0073,HR,Tier 2,True,35176335.77,24,8.0,Operational Resilience;DORA,EVP HR
+BS000074,Enterprise Treasury Service 0074,Insurance,Tier 3,True,35832367.42,72,24.0,Internal Audit;PCI-DSS;GDPR,EVP Insurance
+BS000075,Regulated Compliance Service 0075,Digital Channels,Tier 0,True,106220559.06,1,0.25,SOX;HIPAA;DORA,EVP Digital Channels
+BS000076,Shared Portal Service 0076,Supply Chain,Tier 1,True,50439636.95,4,1.0,PCI-DSS;DORA;SOX,EVP Supply Chain
+BS000077,Regulated Billing Service 0077,Finance,Tier 1,True,22639172.24,4,1.0,PCI-DSS;GDPR,EVP Finance
+BS000078,Core Customer Service 0078,Payments,Tier 2,True,42551725.94,24,8.0,PCI-DSS;DORA,EVP Payments
+BS000079,Critical Workforce Service 0079,Manufacturing,Tier 3,False,17019768.18,72,24.0,Internal Audit;Operational Resilience;DORA,EVP Manufacturing
+BS000080,Core Risk Service 0080,Digital Channels,Tier 2,False,10471575.86,24,8.0,GDPR;Internal Audit,EVP Digital Channels
+BS000081,Global Workforce Service 0081,Legal,Tier 3,True,12697549.2,72,24.0,SOX,EVP Legal
+BS000082,Shared Reporting Service 0082,HR,Tier 1,False,297370779.37,4,1.0,NIS2;GDPR,EVP HR
+BS000083,Enterprise Trading Service 0083,Insurance,Tier 3,False,2653861.51,72,24.0,DORA;Operational Resilience;Internal Audit,EVP Insurance
+BS000084,Critical Warehouse Service 0084,Infrastructure,Tier 1,True,55815020.71,4,1.0,HIPAA;Internal Audit,EVP Infrastructure
+BS000085,Customer Customer Service 0085,Customer Operations,Tier 1,True,5079712.36,4,1.0,PCI-DSS,EVP Customer Operations
+BS000086,Enterprise Customer Service 0086,Digital Channels,Tier 2,False,15885913.45,24,8.0,SOX;HIPAA;NIS2,EVP Digital Channels
+BS000087,Shared Policy Service 0087,Commercial Banking,Tier 3,False,11106152.21,72,24.0,PCI-DSS,EVP Commercial Banking
+BS000088,Enterprise Ledger Service 0088,Finance,Tier 2,False,1805718.03,24,8.0,GDPR;NIS2;SOX,EVP Finance
+BS000089,Shared Pricing Service 0089,Security,Tier 0,False,96081208.9,1,0.25,GDPR;PCI-DSS,EVP Security
+BS000090,Regulated Trading Service 0090,Infrastructure,Tier 2,True,11780522.99,24,8.0,DORA;NIS2;Internal Audit,EVP Infrastructure
+BS000091,Core Settlement Service 0091,HR,Tier 0,False,6222211.76,1,0.25,Internal Audit,EVP HR
+BS000092,Global Portal Service 0092,Security,Tier 3,False,45060874.48,72,24.0,GDPR,EVP Security
+BS000093,Regulated Risk Service 0093,Infrastructure,Tier 2,False,86747034.85,24,8.0,HIPAA,EVP Infrastructure
+BS000094,Global Claims Service 0094,Risk,Tier 1,False,165904593.21,4,1.0,PCI-DSS;NIS2;GDPR,EVP Risk
+BS000095,Regulated Customer Service 0095,Legal,Tier 1,False,47804902.24,4,1.0,HIPAA,EVP Legal
+BS000096,Global Ledger Service 0096,Wealth,Tier 1,False,33883902.85,4,1.0,PCI-DSS;DORA;SOX,EVP Wealth
+BS000097,Regional Data Service 0097,Wealth,Tier 3,False,77127641.02,72,24.0,Internal Audit,EVP Wealth
+BS000098,Customer Billing Service 0098,Digital Channels,Tier 2,True,113876142.21,24,8.0,HIPAA;GDPR,EVP Digital Channels
+BS000099,Critical Payments Service 0099,Customer Operations,Tier 3,True,62265967.92,72,24.0,Internal Audit,EVP Customer Operations
+BS000100,Core Payments Service 0100,Insurance,Tier 2,True,6352180.12,24,8.0,DORA,EVP Insurance
+BS000101,Regulated Risk Service 0101,Infrastructure,Tier 2,False,22330842.19,24,8.0,Operational Resilience,EVP Infrastructure
+BS000102,Customer Claims Service 0102,Payments,Tier 1,True,52234534.98,4,1.0,SOX,EVP Payments
+BS000103,Core Fulfilment Service 0103,Security,Tier 3,True,2444671.54,72,24.0,GDPR;HIPAA,EVP Security
+BS000104,Global Ledger Service 0104,Retail Banking,Tier 2,True,29987666.11,24,8.0,GDPR;HIPAA,EVP Retail Banking
+BS000105,Shared Reporting Service 0105,Security,Tier 2,True,218062223.42,24,8.0,Operational Resilience,EVP Security
+BS000106,Regional Trading Service 0106,Security,Tier 2,False,36176843.23,24,8.0,PCI-DSS,EVP Security
+BS000107,Critical Trading Service 0107,Security,Tier 2,False,90490405.78,24,8.0,SOX;GDPR,EVP Security
+BS000108,Digital Payments Service 0108,Digital Channels,Tier 3,False,21882684.13,72,24.0,SOX;HIPAA;Operational Resilience,EVP Digital Channels
+BS000109,Enterprise Fulfilment Service 0109,Supply Chain,Tier 1,True,29717495.62,4,1.0,SOX;Internal Audit;Operational Resilience,EVP Supply Chain
+BS000110,Critical Pricing Service 0110,Digital Channels,Tier 2,False,27218257.27,24,8.0,GDPR;Operational Resilience;HIPAA,EVP Digital Channels
+BS000111,Global Claims Service 0111,Wealth,Tier 2,False,7294204.5,24,8.0,Internal Audit,EVP Wealth
+BS000112,Shared Ledger Service 0112,Security,Tier 2,False,6198682.29,24,8.0,PCI-DSS,EVP Security
+BS000113,Shared Compliance Service 0113,Manufacturing,Tier 1,False,129698317.6,4,1.0,SOX,EVP Manufacturing
+BS000114,Digital Workforce Service 0114,HR,Tier 1,False,145744149.55,4,1.0,PCI-DSS;DORA,EVP HR
+BS000115,Critical Ledger Service 0115,Supply Chain,Tier 1,False,10827174.82,4,1.0,HIPAA;Operational Resilience;SOX,EVP Supply Chain
+BS000116,Customer Settlement Service 0116,Manufacturing,Tier 2,True,51898408.61,24,8.0,HIPAA,EVP Manufacturing
+BS000117,Customer Data Service 0117,Retail Banking,Tier 2,True,16262038.56,24,8.0,HIPAA,EVP Retail Banking
+BS000118,Global Warehouse Service 0118,Insurance,Tier 2,False,26004741.17,24,8.0,SOX;PCI-DSS;NIS2,EVP Insurance
+BS000119,Global Risk Service 0119,Wealth,Tier 2,False,29687614.7,24,8.0,DORA;Internal Audit;Operational Resilience,EVP Wealth
+BS000120,Regulated Treasury Service 0120,Commercial Banking,Tier 2,False,53424794.62,24,8.0,DORA;PCI-DSS,EVP Commercial Banking
+BS000121,Customer Procurement Service 0121,HR,Tier 2,False,19599018.02,24,8.0,HIPAA,EVP HR
+BS000122,Shared Customer Service 0122,Digital Channels,Tier 1,True,151935228.5,4,1.0,PCI-DSS;SOX;GDPR,EVP Digital Channels
+BS000123,Regulated Procurement Service 0123,Digital Channels,Tier 2,False,25149639.58,24,8.0,PCI-DSS;GDPR;Operational Resilience,EVP Digital Channels
+BS000124,Operational Identity Service 0124,Supply Chain,Tier 2,False,35555403.5,24,8.0,PCI-DSS;Internal Audit,EVP Supply Chain
+BS000125,Operational Settlement Service 0125,Infrastructure,Tier 0,True,25044733.35,1,0.25,PCI-DSS,EVP Infrastructure
+BS000126,Operational Claims Service 0126,Manufacturing,Tier 2,True,192291866.12,24,8.0,GDPR;Operational Resilience;SOX,EVP Manufacturing
+BS000127,Global Identity Service 0127,Commercial Banking,Tier 2,False,30002984.43,24,8.0,NIS2;PCI-DSS,EVP Commercial Banking
+BS000128,Enterprise Warehouse Service 0128,Security,Tier 1,False,70567752.37,4,1.0,PCI-DSS;DORA,EVP Security
+BS000129,Digital Claims Service 0129,Manufacturing,Tier 2,False,3051047.73,24,8.0,Internal Audit,EVP Manufacturing
+BS000130,Digital Trading Service 0130,Customer Operations,Tier 2,False,7239247.15,24,8.0,Operational Resilience;Internal Audit,EVP Customer Operations
+BS000131,Shared Reporting Service 0131,Manufacturing,Tier 2,False,69836828.44,24,8.0,NIS2;HIPAA;SOX,EVP Manufacturing
+BS000132,Regional Reporting Service 0132,Manufacturing,Tier 2,False,24534239.49,24,8.0,PCI-DSS;Internal Audit;SOX,EVP Manufacturing
+BS000133,Critical Portal Service 0133,Commercial Banking,Tier 2,False,2180014.95,24,8.0,DORA;PCI-DSS;SOX,EVP Commercial Banking
+BS000134,Shared Fulfilment Service 0134,Manufacturing,Tier 2,False,56070417.94,24,8.0,PCI-DSS;GDPR;DORA,EVP Manufacturing
+BS000135,Regional Warehouse Service 0135,Security,Tier 3,False,9838746.92,72,24.0,Internal Audit;HIPAA,EVP Security
+BS000136,Core Policy Service 0136,Finance,Tier 2,False,84515768.51,24,8.0,Internal Audit;DORA,EVP Finance
+BS000137,Customer Procurement Service 0137,Customer Operations,Tier 2,False,16246381.31,24,8.0,SOX,EVP Customer Operations
+BS000138,Critical Reporting Service 0138,Retail Banking,Tier 2,True,22413574.88,24,8.0,NIS2,EVP Retail Banking
+BS000139,Critical Settlement Service 0139,Finance,Tier 2,False,65453468.03,24,8.0,PCI-DSS;GDPR,EVP Finance
+BS000140,Global Claims Service 0140,HR,Tier 2,True,6667514.65,24,8.0,NIS2;HIPAA,EVP HR
+BS000141,Customer Settlement Service 0141,M&A Office,Tier 3,True,6003591.98,72,24.0,DORA;GDPR;NIS2,EVP M&A Office
+BS000142,Shared Procurement Service 0142,Payments,Tier 3,True,14416035.73,72,24.0,Internal Audit;SOX;Operational Resilience,EVP Payments
+BS000143,Global Trading Service 0143,Wealth,Tier 3,False,44450647.18,72,24.0,GDPR,EVP Wealth
+BS000144,Core Ledger Service 0144,Risk,Tier 2,False,4139290.78,24,8.0,Internal Audit;SOX,EVP Risk
+BS000145,Global Fulfilment Service 0145,M&A Office,Tier 2,True,2856655.06,24,8.0,DORA;NIS2;HIPAA,EVP M&A Office
+BS000146,Shared Compliance Service 0146,Infrastructure,Tier 3,False,44282185.45,72,24.0,Operational Resilience;HIPAA,EVP Infrastructure
+BS000147,Enterprise Settlement Service 0147,Retail Banking,Tier 2,True,9218508.88,24,8.0,GDPR,EVP Retail Banking
+BS000148,Critical Compliance Service 0148,Payments,Tier 3,True,11623638.52,72,24.0,PCI-DSS,EVP Payments
+BS000149,Shared Claims Service 0149,Security,Tier 2,False,2320999.7,24,8.0,GDPR,EVP Security
+BS000150,Digital Compliance Service 0150,Retail Banking,Tier 1,True,15262500.33,4,1.0,Operational Resilience,EVP Retail Banking
+BS000151,Shared Treasury Service 0151,Infrastructure,Tier 1,True,31942968.57,4,1.0,GDPR;Internal Audit;SOX,EVP Infrastructure
+BS000152,Shared Claims Service 0152,Wealth,Tier 3,False,49794527.35,72,24.0,SOX;PCI-DSS,EVP Wealth
+BS000153,Customer Portal Service 0153,Legal,Tier 0,True,26813332.04,1,0.25,SOX;DORA,EVP Legal
+BS000154,Operational Treasury Service 0154,Wealth,Tier 1,False,199415350.73,4,1.0,Internal Audit;GDPR;NIS2,EVP Wealth
+BS000155,Global Compliance Service 0155,HR,Tier 2,True,8427311.62,24,8.0,HIPAA;SOX;DORA,EVP HR
+BS000156,Regional Treasury Service 0156,Digital Channels,Tier 1,True,15193612.75,4,1.0,GDPR,EVP Digital Channels
+BS000157,Global Risk Service 0157,Insurance,Tier 2,True,97084598.62,24,8.0,Operational Resilience,EVP Insurance
+BS000158,Operational Payments Service 0158,Manufacturing,Tier 3,False,22580701.14,72,24.0,NIS2;DORA;GDPR,EVP Manufacturing
+BS000159,Core Fulfilment Service 0159,Supply Chain,Tier 0,True,34124827.84,1,0.25,GDPR,EVP Supply Chain
+BS000160,Core Reporting Service 0160,Security,Tier 3,True,15087144.11,72,24.0,GDPR;NIS2,EVP Security
+BS000161,Regulated Reporting Service 0161,M&A Office,Tier 3,False,79270842.68,72,24.0,NIS2;HIPAA,EVP M&A Office
+BS000162,Enterprise Trading Service 0162,Digital Channels,Tier 2,True,89775538.97,24,8.0,DORA,EVP Digital Channels
+BS000163,Critical Risk Service 0163,Risk,Tier 1,False,13115616.37,4,1.0,Operational Resilience,EVP Risk
+BS000164,Shared Ledger Service 0164,Risk,Tier 2,True,17078361.47,24,8.0,Internal Audit;HIPAA,EVP Risk
+BS000165,Critical Warehouse Service 0165,HR,Tier 1,False,35568080.39,4,1.0,HIPAA;SOX,EVP HR
+BS000166,Operational Payments Service 0166,Security,Tier 2,False,6047381.21,24,8.0,Operational Resilience;SOX;PCI-DSS,EVP Security
+BS000167,Operational Warehouse Service 0167,Finance,Tier 3,False,16831226.55,72,24.0,PCI-DSS;Internal Audit;GDPR,EVP Finance
+BS000168,Global Fulfilment Service 0168,Insurance,Tier 3,True,17999510.96,72,24.0,GDPR,EVP Insurance
+BS000169,Shared Procurement Service 0169,Finance,Tier 3,False,62722477.04,72,24.0,Operational Resilience,EVP Finance
+BS000170,Operational Workforce Service 0170,Retail Banking,Tier 2,False,67535742.29,24,8.0,GDPR;DORA,EVP Retail Banking
+BS000171,Shared Customer Service 0171,Commercial Banking,Tier 2,True,12457951.63,24,8.0,Operational Resilience;PCI-DSS,EVP Commercial Banking
+BS000172,Regulated Treasury Service 0172,Commercial Banking,Tier 2,True,14141885.32,24,8.0,GDPR;Internal Audit;HIPAA,EVP Commercial Banking
+BS000173,Global Warehouse Service 0173,Security,Tier 2,True,37159184.73,24,8.0,Internal Audit;Operational Resilience;NIS2,EVP Security
+BS000174,Core Identity Service 0174,Data & Analytics,Tier 2,False,9400681.14,24,8.0,SOX;NIS2;Internal Audit,EVP Data & Analytics
+BS000175,Regulated Ledger Service 0175,Digital Channels,Tier 0,True,119672228.62,1,0.25,Internal Audit;NIS2,EVP Digital Channels
+BS000176,Digital Settlement Service 0176,HR,Tier 1,False,29241208.69,4,1.0,GDPR;NIS2,EVP HR
+BS000177,Operational Procurement Service 0177,Data & Analytics,Tier 2,False,6160457.27,24,8.0,SOX;PCI-DSS,EVP Data & Analytics
+BS000178,Shared Compliance Service 0178,Insurance,Tier 1,False,11243112.55,4,1.0,PCI-DSS;DORA,EVP Insurance
+BS000179,Shared Warehouse Service 0179,Legal,Tier 1,False,158228576.23,4,1.0,HIPAA;SOX;PCI-DSS,EVP Legal
+BS000180,Core Settlement Service 0180,Supply Chain,Tier 3,False,15065778.01,72,24.0,Operational Resilience;NIS2,EVP Supply Chain
+BS000181,Regulated Pricing Service 0181,Legal,Tier 3,True,108731217.82,72,24.0,Internal Audit,EVP Legal
+BS000182,Critical Identity Service 0182,Insurance,Tier 2,True,10170481.51,24,8.0,NIS2;PCI-DSS,EVP Insurance
+BS000183,Global Pricing Service 0183,Supply Chain,Tier 3,False,24650943.2,72,24.0,GDPR;Operational Resilience;NIS2,EVP Supply Chain
+BS000184,Operational Settlement Service 0184,Digital Channels,Tier 3,False,248746383.53,72,24.0,SOX;Operational Resilience,EVP Digital Channels
+BS000185,Shared Reporting Service 0185,Supply Chain,Tier 1,False,10065871.96,4,1.0,HIPAA,EVP Supply Chain
+BS000186,Enterprise Compliance Service 0186,HR,Tier 2,False,2218638.0,24,8.0,NIS2;Internal Audit;SOX,EVP HR
+BS000187,Global Billing Service 0187,Insurance,Tier 2,True,73680530.09,24,8.0,SOX;HIPAA;PCI-DSS,EVP Insurance
+BS000188,Core Data Service 0188,Risk,Tier 1,False,12971907.94,4,1.0,GDPR;PCI-DSS,EVP Risk
+BS000189,Critical Treasury Service 0189,Wealth,Tier 3,False,17491454.4,72,24.0,DORA;HIPAA,EVP Wealth
+BS000190,Shared Ledger Service 0190,Finance,Tier 2,False,9393137.89,24,8.0,Operational Resilience,EVP Finance
+BS000191,Enterprise Payments Service 0191,Digital Channels,Tier 2,False,24033976.12,24,8.0,HIPAA;SOX,EVP Digital Channels
+BS000192,Critical Data Service 0192,Customer Operations,Tier 1,False,11321304.21,4,1.0,Internal Audit;DORA;Operational Resilience,EVP Customer Operations
+BS000193,Customer Customer Service 0193,Customer Operations,Tier 1,False,26425831.82,4,1.0,DORA;HIPAA,EVP Customer Operations
+BS000194,Digital Payments Service 0194,Risk,Tier 3,False,29349816.71,72,24.0,GDPR,EVP Risk
+BS000195,Enterprise Procurement Service 0195,M&A Office,Tier 0,True,20658206.2,1,0.25,SOX,EVP M&A Office
+BS000196,Operational Portal Service 0196,Commercial Banking,Tier 1,False,14912259.71,4,1.0,NIS2,EVP Commercial Banking
+BS000197,Global Billing Service 0197,Finance,Tier 1,True,21980484.47,4,1.0,Internal Audit;Operational Resilience,EVP Finance
+BS000198,Shared Customer Service 0198,Insurance,Tier 2,True,3716537.53,24,8.0,GDPR;NIS2;Operational Resilience,EVP Insurance
+BS000199,Core Fulfilment Service 0199,Finance,Tier 2,False,11242175.34,24,8.0,DORA;NIS2;Operational Resilience,EVP Finance
+BS000200,Operational Workforce Service 0200,M&A Office,Tier 2,False,20392468.39,24,8.0,Internal Audit;GDPR;PCI-DSS,EVP M&A Office
+BS000201,Digital Fulfilment Service 0201,Risk,Tier 1,False,20754690.53,4,1.0,NIS2,EVP Risk
+BS000202,Core Trading Service 0202,Legal,Tier 1,False,23897215.94,4,1.0,Internal Audit;SOX;HIPAA,EVP Legal
+BS000203,Customer Treasury Service 0203,Supply Chain,Tier 3,False,17506944.03,72,24.0,GDPR;NIS2,EVP Supply Chain
+BS000204,Regional Data Service 0204,Digital Channels,Tier 2,True,8698682.99,24,8.0,GDPR;NIS2,EVP Digital Channels
+BS000205,Global Policy Service 0205,HR,Tier 2,False,38269692.5,24,8.0,DORA;GDPR;PCI-DSS,EVP HR
+BS000206,Digital Pricing Service 0206,Wealth,Tier 2,False,86839829.3,24,8.0,HIPAA;GDPR;SOX,EVP Wealth
+BS000207,Critical Procurement Service 0207,Data & Analytics,Tier 3,False,10736734.69,72,24.0,Internal Audit;PCI-DSS;HIPAA,EVP Data & Analytics
+BS000208,Regional Policy Service 0208,M&A Office,Tier 0,False,106801339.12,1,0.25,GDPR;SOX;Internal Audit,EVP M&A Office
+BS000209,Regional Ledger Service 0209,Wealth,Tier 2,False,13748236.63,24,8.0,HIPAA,EVP Wealth
+BS000210,Global Data Service 0210,Security,Tier 2,False,26749760.54,24,8.0,NIS2,EVP Security
+BS000211,Global Claims Service 0211,Wealth,Tier 2,False,100167814.69,24,8.0,HIPAA;SOX;GDPR,EVP Wealth
+BS000212,Shared Billing Service 0212,Data & Analytics,Tier 3,False,31312423.61,72,24.0,DORA;GDPR;PCI-DSS,EVP Data & Analytics
+BS000213,Enterprise Policy Service 0213,Security,Tier 2,False,2543989.33,24,8.0,GDPR;PCI-DSS,EVP Security
+BS000214,Regional Trading Service 0214,HR,Tier 3,False,29485087.78,72,24.0,PCI-DSS;DORA;NIS2,EVP HR
+BS000215,Critical Trading Service 0215,Data & Analytics,Tier 3,False,69452256.5,72,24.0,NIS2;SOX;Operational Resilience,EVP Data & Analytics
+BS000216,Shared Workforce Service 0216,Wealth,Tier 2,False,14023488.24,24,8.0,GDPR,EVP Wealth
+BS000217,Regional Billing Service 0217,Commercial Banking,Tier 3,True,53500325.01,72,24.0,SOX;DORA,EVP Commercial Banking
+BS000218,Enterprise Claims Service 0218,Commercial Banking,Tier 2,True,8375931.93,24,8.0,SOX,EVP Commercial Banking
+BS000219,Critical Reporting Service 0219,HR,Tier 3,False,3491726.69,72,24.0,HIPAA;NIS2;DORA,EVP HR
+BS000220,Digital Identity Service 0220,Legal,Tier 2,False,20900547.67,24,8.0,SOX;DORA;PCI-DSS,EVP Legal
+BS000221,Digital Data Service 0221,Insurance,Tier 2,True,2591832.23,24,8.0,GDPR;NIS2,EVP Insurance
+BS000222,Operational Policy Service 0222,HR,Tier 2,False,13745910.03,24,8.0,GDPR;Operational Resilience;HIPAA,EVP HR
+BS000223,Enterprise Claims Service 0223,Digital Channels,Tier 1,False,132661742.08,4,1.0,Operational Resilience,EVP Digital Channels
+BS000224,Enterprise Settlement Service 0224,Payments,Tier 2,True,2189668.68,24,8.0,HIPAA;PCI-DSS;Operational Resilience,EVP Payments
+BS000225,Digital Procurement Service 0225,Data & Analytics,Tier 3,False,4379974.78,72,24.0,PCI-DSS;HIPAA;GDPR,EVP Data & Analytics
+BS000226,Digital Identity Service 0226,Finance,Tier 2,False,5750311.18,24,8.0,SOX;PCI-DSS;HIPAA,EVP Finance
+BS000227,Operational Fulfilment Service 0227,Security,Tier 1,False,30042836.95,4,1.0,SOX;HIPAA,EVP Security
+BS000228,Core Identity Service 0228,Manufacturing,Tier 2,False,11967575.82,24,8.0,SOX,EVP Manufacturing
+BS000229,Customer Workforce Service 0229,Manufacturing,Tier 1,True,150103660.72,4,1.0,PCI-DSS;HIPAA;Operational Resilience,EVP Manufacturing
+BS000230,Regional Risk Service 0230,Payments,Tier 0,False,178937319.22,1,0.25,NIS2;PCI-DSS,EVP Payments
+BS000231,Global Claims Service 0231,HR,Tier 3,False,30854718.32,72,24.0,Operational Resilience,EVP HR
+BS000232,Critical Workforce Service 0232,Infrastructure,Tier 2,False,21003367.62,24,8.0,Operational Resilience;NIS2,EVP Infrastructure
+BS000233,Operational Customer Service 0233,Retail Banking,Tier 2,True,27578657.56,24,8.0,PCI-DSS;HIPAA,EVP Retail Banking
+BS000234,Customer Trading Service 0234,Data & Analytics,Tier 2,True,6933112.53,24,8.0,HIPAA;Internal Audit;NIS2,EVP Data & Analytics
+BS000235,Operational Policy Service 0235,Supply Chain,Tier 0,True,160803608.84,1,0.25,HIPAA;Internal Audit,EVP Supply Chain
+BS000236,Core Portal Service 0236,Data & Analytics,Tier 1,False,9478512.81,4,1.0,NIS2;GDPR;PCI-DSS,EVP Data & Analytics
+BS000237,Customer Compliance Service 0237,Digital Channels,Tier 2,True,44853612.67,24,8.0,Operational Resilience,EVP Digital Channels
+BS000238,Digital Claims Service 0238,HR,Tier 2,True,65973041.36,24,8.0,Internal Audit;DORA;SOX,EVP HR
+BS000239,Regulated Reporting Service 0239,Finance,Tier 3,False,22565913.25,72,24.0,GDPR,EVP Finance
+BS000240,Regional Portal Service 0240,Customer Operations,Tier 2,False,14741329.47,24,8.0,GDPR;HIPAA;Operational Resilience,EVP Customer Operations
+BS000241,Regulated Billing Service 0241,Insurance,Tier 2,True,27794282.7,24,8.0,HIPAA;DORA;PCI-DSS,EVP Insurance
+BS000242,Operational Portal Service 0242,Manufacturing,Tier 3,False,768602.95,72,24.0,Operational Resilience,EVP Manufacturing
+BS000243,Shared Reporting Service 0243,Commercial Banking,Tier 3,True,24952486.65,72,24.0,GDPR;SOX,EVP Commercial Banking
+BS000244,Regional Compliance Service 0244,Digital Channels,Tier 3,False,15796684.0,72,24.0,GDPR;NIS2,EVP Digital Channels
+BS000245,Regulated Treasury Service 0245,Customer Operations,Tier 3,False,16925113.38,72,24.0,Internal Audit,EVP Customer Operations
+BS000246,Operational Claims Service 0246,Commercial Banking,Tier 3,False,38926498.19,72,24.0,NIS2,EVP Commercial Banking
+BS000247,Digital Trading Service 0247,Data & Analytics,Tier 3,False,16481583.87,72,24.0,Internal Audit,EVP Data & Analytics
+BS000248,Regulated Workforce Service 0248,HR,Tier 1,False,9189380.88,4,1.0,SOX;GDPR,EVP HR
+BS000249,Shared Policy Service 0249,Security,Tier 3,False,15316742.39,72,24.0,NIS2,EVP Security
+BS000250,Operational Customer Service 0250,Retail Banking,Tier 2,True,19274837.22,24,8.0,DORA;GDPR;Operational Resilience,EVP Retail Banking
+BS000251,Core Treasury Service 0251,Payments,Tier 2,False,20306006.82,24,8.0,GDPR,EVP Payments
+BS000252,Global Claims Service 0252,Supply Chain,Tier 2,False,21383096.91,24,8.0,HIPAA,EVP Supply Chain
+BS000253,Core Procurement Service 0253,Payments,Tier 3,True,56137014.58,72,24.0,HIPAA,EVP Payments
+BS000254,Global Fulfilment Service 0254,Finance,Tier 3,False,5418675.61,72,24.0,Operational Resilience;GDPR,EVP Finance
+BS000255,Shared Customer Service 0255,Digital Channels,Tier 1,False,39077490.42,4,1.0,PCI-DSS;HIPAA,EVP Digital Channels
+BS000256,Core Procurement Service 0256,Insurance,Tier 3,False,73951695.05,72,24.0,GDPR;HIPAA,EVP Insurance
+BS000257,Global Treasury Service 0257,Digital Channels,Tier 3,True,2654926.03,72,24.0,Internal Audit;PCI-DSS,EVP Digital Channels
+BS000258,Regional Procurement Service 0258,Commercial Banking,Tier 2,False,21804160.3,24,8.0,Internal Audit;PCI-DSS;DORA,EVP Commercial Banking
+BS000259,Core Policy Service 0259,Insurance,Tier 1,False,16917688.89,4,1.0,HIPAA;GDPR,EVP Insurance
+BS000260,Regional Payments Service 0260,Manufacturing,Tier 0,False,41657065.24,1,0.25,NIS2;GDPR,EVP Manufacturing
+BS000261,Operational Compliance Service 0261,Security,Tier 3,True,6614083.16,72,24.0,Internal Audit;HIPAA;NIS2,EVP Security
+BS000262,Regulated Billing Service 0262,Insurance,Tier 2,False,14849759.28,24,8.0,PCI-DSS;HIPAA;GDPR,EVP Insurance
+BS000263,Operational Workforce Service 0263,Finance,Tier 3,False,135621866.23,72,24.0,DORA;NIS2;Internal Audit,EVP Finance
+BS000264,Core Payments Service 0264,Legal,Tier 2,False,4453169.3,24,8.0,PCI-DSS,EVP Legal
+BS000265,Shared Trading Service 0265,M&A Office,Tier 3,False,4942733.11,72,24.0,HIPAA,EVP M&A Office
+BS000266,Core Compliance Service 0266,Manufacturing,Tier 2,False,4273193.39,24,8.0,PCI-DSS;SOX,EVP Manufacturing
+BS000267,Operational Workforce Service 0267,HR,Tier 3,False,119659421.97,72,24.0,DORA;GDPR,EVP HR
+BS000268,Regulated Treasury Service 0268,Finance,Tier 1,False,19369553.6,4,1.0,DORA,EVP Finance
+BS000269,Regulated Billing Service 0269,Customer Operations,Tier 2,False,17396803.38,24,8.0,NIS2,EVP Customer Operations
+BS000270,Customer Workforce Service 0270,Customer Operations,Tier 3,True,11489438.32,72,24.0,GDPR,EVP Customer Operations
+BS000271,Operational Pricing Service 0271,Finance,Tier 3,False,6332051.5,72,24.0,GDPR;NIS2,EVP Finance
+BS000272,Global Trading Service 0272,Retail Banking,Tier 3,False,13815950.12,72,24.0,NIS2,EVP Retail Banking
+BS000273,Global Billing Service 0273,Insurance,Tier 0,True,935723827.5,1,0.25,PCI-DSS;Operational Resilience,EVP Insurance
+BS000274,Enterprise Pricing Service 0274,M&A Office,Tier 2,False,82745319.86,24,8.0,Operational Resilience;GDPR,EVP M&A Office
+BS000275,Customer Identity Service 0275,HR,Tier 0,False,24508519.98,1,0.25,SOX;HIPAA;NIS2,EVP HR
+BS000276,Digital Workforce Service 0276,Supply Chain,Tier 1,True,65667729.19,4,1.0,DORA,EVP Supply Chain
+BS000277,Regulated Treasury Service 0277,HR,Tier 2,False,7169345.68,24,8.0,Operational Resilience;GDPR;SOX,EVP HR
+BS000278,Regional Ledger Service 0278,Security,Tier 2,False,2535738.81,24,8.0,GDPR,EVP Security
+BS000279,Operational Customer Service 0279,Commercial Banking,Tier 3,False,54924057.12,72,24.0,HIPAA,EVP Commercial Banking
+BS000280,Global Claims Service 0280,Commercial Banking,Tier 3,True,64109436.82,72,24.0,HIPAA;Operational Resilience;PCI-DSS,EVP Commercial Banking
+BS000281,Enterprise Identity Service 0281,Wealth,Tier 3,False,56551228.03,72,24.0,PCI-DSS,EVP Wealth
+BS000282,Shared Settlement Service 0282,Supply Chain,Tier 3,False,10672151.32,72,24.0,DORA;PCI-DSS,EVP Supply Chain
+BS000283,Operational Data Service 0283,Digital Channels,Tier 0,True,52133049.92,1,0.25,GDPR;SOX,EVP Digital Channels
+BS000284,Enterprise Ledger Service 0284,Supply Chain,Tier 1,True,73480364.14,4,1.0,GDPR,EVP Supply Chain
+BS000285,Shared Data Service 0285,HR,Tier 2,False,27526112.05,24,8.0,Internal Audit;HIPAA;PCI-DSS,EVP HR
+BS000286,Digital Billing Service 0286,Legal,Tier 3,False,11605605.61,72,24.0,Operational Resilience;PCI-DSS,EVP Legal
+BS000287,Shared Identity Service 0287,Insurance,Tier 0,True,10551556.75,1,0.25,GDPR;SOX,EVP Insurance
+BS000288,Enterprise Customer Service 0288,Manufacturing,Tier 2,True,20282372.43,24,8.0,SOX,EVP Manufacturing
+BS000289,Digital Warehouse Service 0289,Manufacturing,Tier 2,True,58639002.4,24,8.0,PCI-DSS;Operational Resilience;DORA,EVP Manufacturing
+BS000290,Enterprise Procurement Service 0290,Supply Chain,Tier 0,False,16775261.86,1,0.25,NIS2;GDPR,EVP Supply Chain
+BS000291,Critical Identity Service 0291,Security,Tier 2,True,36130043.96,24,8.0,HIPAA;Operational Resilience;SOX,EVP Security
+BS000292,Global Pricing Service 0292,Wealth,Tier 3,False,25769337.26,72,24.0,Internal Audit,EVP Wealth
+BS000293,Core Risk Service 0293,M&A Office,Tier 2,False,40839613.59,24,8.0,SOX;HIPAA;GDPR,EVP M&A Office
+BS000294,Regional Settlement Service 0294,Finance,Tier 1,False,84053134.85,4,1.0,DORA;NIS2,EVP Finance
+BS000295,Core Compliance Service 0295,Manufacturing,Tier 3,False,8335951.58,72,24.0,PCI-DSS;GDPR,EVP Manufacturing
+BS000296,Enterprise Customer Service 0296,Supply Chain,Tier 2,True,3021743.86,24,8.0,GDPR;SOX;HIPAA,EVP Supply Chain
+BS000297,Operational Claims Service 0297,Infrastructure,Tier 3,False,9950451.87,72,24.0,NIS2,EVP Infrastructure
+BS000298,Shared Procurement Service 0298,HR,Tier 1,False,85654019.77,4,1.0,NIS2;HIPAA,EVP HR
+BS000299,Shared Policy Service 0299,Wealth,Tier 2,False,9858018.14,24,8.0,SOX;DORA;PCI-DSS,EVP Wealth
+BS000300,Regulated Settlement Service 0300,Retail Banking,Tier 2,True,8339821.27,24,8.0,Operational Resilience;HIPAA;DORA,EVP Retail Banking
+BS000301,Critical Warehouse Service 0301,Risk,Tier 1,False,4343978.92,4,1.0,Internal Audit,EVP Risk
+BS000302,Digital Policy Service 0302,Infrastructure,Tier 3,True,123026742.7,72,24.0,GDPR;Internal Audit,EVP Infrastructure
+BS000303,Regional Fulfilment Service 0303,Retail Banking,Tier 1,True,79882844.09,4,1.0,GDPR,EVP Retail Banking
+BS000304,Regulated Compliance Service 0304,Legal,Tier 1,False,75125623.05,4,1.0,PCI-DSS,EVP Legal
+BS000305,Regional Reporting Service 0305,Manufacturing,Tier 2,False,51882802.01,24,8.0,DORA;GDPR;Internal Audit,EVP Manufacturing
+BS000306,Global Warehouse Service 0306,Insurance,Tier 2,True,33746227.72,24,8.0,DORA,EVP Insurance
+BS000307,Enterprise Warehouse Service 0307,Finance,Tier 3,False,13677165.65,72,24.0,Internal Audit;DORA;PCI-DSS,EVP Finance
+BS000308,Critical Treasury Service 0308,Manufacturing,Tier 3,False,14944583.52,72,24.0,DORA,EVP Manufacturing
+BS000309,Enterprise Customer Service 0309,Finance,Tier 1,False,20124848.72,4,1.0,Internal Audit,EVP Finance
+BS000310,Shared Ledger Service 0310,Commercial Banking,Tier 2,True,324635908.2,24,8.0,DORA,EVP Commercial Banking
+BS000311,Global Workforce Service 0311,Digital Channels,Tier 1,False,59369423.71,4,1.0,GDPR;HIPAA;Operational Resilience,EVP Digital Channels
+BS000312,Customer Workforce Service 0312,Digital Channels,Tier 2,False,10743586.34,24,8.0,Internal Audit;PCI-DSS,EVP Digital Channels
+BS000313,Operational Ledger Service 0313,Insurance,Tier 3,True,29860480.79,72,24.0,Internal Audit,EVP Insurance
+BS000314,Enterprise Reporting Service 0314,Wealth,Tier 2,True,5885746.8,24,8.0,DORA,EVP Wealth
+BS000315,Digital Claims Service 0315,Wealth,Tier 2,False,93638987.74,24,8.0,Operational Resilience;DORA,EVP Wealth
+BS000316,Core Compliance Service 0316,Digital Channels,Tier 2,True,8647873.36,24,8.0,Internal Audit;HIPAA;GDPR,EVP Digital Channels
+BS000317,Critical Billing Service 0317,Data & Analytics,Tier 3,False,31052627.24,72,24.0,SOX;Operational Resilience;PCI-DSS,EVP Data & Analytics
+BS000318,Regional Claims Service 0318,Data & Analytics,Tier 2,False,57804396.38,24,8.0,Operational Resilience;HIPAA;PCI-DSS,EVP Data & Analytics
+BS000319,Regulated Policy Service 0319,Legal,Tier 1,False,49181695.2,4,1.0,SOX,EVP Legal
+BS000320,Operational Settlement Service 0320,Security,Tier 2,False,19854018.56,24,8.0,NIS2;DORA;SOX,EVP Security
+BS000321,Digital Billing Service 0321,Finance,Tier 1,False,32594983.63,4,1.0,Internal Audit;HIPAA;PCI-DSS,EVP Finance
+BS000322,Customer Claims Service 0322,Commercial Banking,Tier 1,True,30271022.46,4,1.0,GDPR,EVP Commercial Banking
+BS000323,Digital Billing Service 0323,Customer Operations,Tier 0,False,33211097.18,1,0.25,PCI-DSS;DORA,EVP Customer Operations
+BS000324,Regional Ledger Service 0324,Legal,Tier 2,False,10914123.33,24,8.0,Operational Resilience;PCI-DSS,EVP Legal
+BS000325,Regulated Identity Service 0325,M&A Office,Tier 2,True,91107383.84,24,8.0,NIS2;Internal Audit;PCI-DSS,EVP M&A Office
+BS000326,Enterprise Identity Service 0326,Payments,Tier 2,True,15880614.41,24,8.0,SOX;HIPAA;NIS2,EVP Payments
+BS000327,Regulated Customer Service 0327,Wealth,Tier 2,False,7539180.93,24,8.0,GDPR,EVP Wealth
+BS000328,Digital Customer Service 0328,Retail Banking,Tier 3,True,10140751.27,72,24.0,SOX;Internal Audit,EVP Retail Banking
+BS000329,Digital Payments Service 0329,Insurance,Tier 3,False,60033166.88,72,24.0,Operational Resilience;PCI-DSS,EVP Insurance
+BS000330,Critical Claims Service 0330,Manufacturing,Tier 2,False,37624549.08,24,8.0,NIS2;Operational Resilience,EVP Manufacturing
+BS000331,Regional Settlement Service 0331,Manufacturing,Tier 1,False,59658593.47,4,1.0,GDPR,EVP Manufacturing
+BS000332,Regional Portal Service 0332,Risk,Tier 3,False,13480121.56,72,24.0,Internal Audit,EVP Risk
+BS000333,Shared Treasury Service 0333,Finance,Tier 1,False,60520056.61,4,1.0,NIS2,EVP Finance
+BS000334,Digital Compliance Service 0334,Infrastructure,Tier 2,False,8816034.84,24,8.0,PCI-DSS,EVP Infrastructure
+BS000335,Core Workforce Service 0335,HR,Tier 3,True,13449124.45,72,24.0,PCI-DSS,EVP HR
+BS000336,Operational Workforce Service 0336,Security,Tier 2,False,52001594.32,24,8.0,NIS2;DORA;PCI-DSS,EVP Security
+BS000337,Regulated Customer Service 0337,M&A Office,Tier 3,False,46814589.17,72,24.0,SOX;Operational Resilience,EVP M&A Office
+BS000338,Core Portal Service 0338,Finance,Tier 2,False,6076255.36,24,8.0,PCI-DSS,EVP Finance
+BS000339,Core Portal Service 0339,Payments,Tier 2,False,6982523.22,24,8.0,PCI-DSS;SOX;DORA,EVP Payments
+BS000340,Operational Fulfilment Service 0340,M&A Office,Tier 1,False,36301115.65,4,1.0,GDPR;Internal Audit,EVP M&A Office
+BS000341,Enterprise Pricing Service 0341,Customer Operations,Tier 1,False,215082509.38,4,1.0,Operational Resilience;SOX,EVP Customer Operations
+BS000342,Global Trading Service 0342,Wealth,Tier 2,False,2175737.66,24,8.0,Internal Audit;DORA,EVP Wealth
+BS000343,Global Portal Service 0343,Customer Operations,Tier 1,False,43747844.38,4,1.0,GDPR;NIS2;PCI-DSS,EVP Customer Operations
+BS000344,Operational Fulfilment Service 0344,Supply Chain,Tier 3,False,3938664.78,72,24.0,Internal Audit,EVP Supply Chain
+BS000345,Operational Customer Service 0345,Legal,Tier 1,False,16030802.29,4,1.0,NIS2,EVP Legal
+BS000346,Core Compliance Service 0346,Wealth,Tier 2,False,11984548.35,24,8.0,Operational Resilience;DORA;Internal Audit,EVP Wealth
+BS000347,Enterprise Payments Service 0347,M&A Office,Tier 3,True,11267587.76,72,24.0,SOX,EVP M&A Office
+BS000348,Regulated Treasury Service 0348,Legal,Tier 3,True,9947426.84,72,24.0,Operational Resilience;HIPAA,EVP Legal
+BS000349,Enterprise Portal Service 0349,Payments,Tier 2,False,18036855.79,24,8.0,Internal Audit;DORA;PCI-DSS,EVP Payments
+BS000350,Core Payments Service 0350,Insurance,Tier 2,True,9931468.17,24,8.0,Internal Audit,EVP Insurance
+BS000351,Regional Data Service 0351,Manufacturing,Tier 3,False,3581516.52,72,24.0,Internal Audit,EVP Manufacturing
+BS000352,Global Claims Service 0352,Retail Banking,Tier 2,True,42196868.66,24,8.0,SOX;DORA;Operational Resilience,EVP Retail Banking
+BS000353,Critical Portal Service 0353,Finance,Tier 3,True,40962164.6,72,24.0,DORA;NIS2,EVP Finance
+BS000354,Operational Portal Service 0354,HR,Tier 3,True,45239978.82,72,24.0,GDPR;NIS2;Operational Resilience,EVP HR
+BS000355,Customer Reporting Service 0355,M&A Office,Tier 3,True,3286034.43,72,24.0,HIPAA;SOX,EVP M&A Office
+BS000356,Shared Pricing Service 0356,M&A Office,Tier 1,False,44749759.7,4,1.0,SOX,EVP M&A Office
+BS000357,Digital Payments Service 0357,Insurance,Tier 2,True,37639957.42,24,8.0,NIS2,EVP Insurance
+BS000358,Operational Billing Service 0358,Legal,Tier 1,False,10360016.51,4,1.0,PCI-DSS;Operational Resilience,EVP Legal
+BS000359,Regulated Trading Service 0359,Commercial Banking,Tier 2,False,18075908.24,24,8.0,NIS2;SOX;HIPAA,EVP Commercial Banking
+BS000360,Customer Claims Service 0360,Data & Analytics,Tier 3,False,15746153.8,72,24.0,Internal Audit;NIS2,EVP Data & Analytics
+BS000361,Critical Trading Service 0361,Infrastructure,Tier 2,True,135755458.3,24,8.0,HIPAA;DORA,EVP Infrastructure
+BS000362,Enterprise Billing Service 0362,Legal,Tier 2,True,148626297.17,24,8.0,DORA;SOX;GDPR,EVP Legal
+BS000363,Regulated Identity Service 0363,Payments,Tier 0,True,10038828.03,1,0.25,PCI-DSS,EVP Payments
+BS000364,Customer Trading Service 0364,Legal,Tier 3,True,278052278.55,72,24.0,NIS2,EVP Legal
+BS000365,Core Pricing Service 0365,Commercial Banking,Tier 1,True,11769692.72,4,1.0,GDPR,EVP Commercial Banking
+BS000366,Global Billing Service 0366,Supply Chain,Tier 0,False,184194641.78,1,0.25,DORA,EVP Supply Chain
+BS000367,Customer Pricing Service 0367,HR,Tier 1,False,93674301.3,4,1.0,Internal Audit;NIS2,EVP HR
+BS000368,Regulated Trading Service 0368,Finance,Tier 1,False,10772718.34,4,1.0,Internal Audit,EVP Finance
+BS000369,Operational Customer Service 0369,Retail Banking,Tier 2,True,30786738.07,24,8.0,Operational Resilience;Internal Audit,EVP Retail Banking
+BS000370,Operational Workforce Service 0370,Security,Tier 2,True,15898143.21,24,8.0,HIPAA;GDPR,EVP Security
+BS000371,Core Trading Service 0371,Finance,Tier 2,False,32925665.08,24,8.0,DORA;Internal Audit;NIS2,EVP Finance
+BS000372,Enterprise Billing Service 0372,Digital Channels,Tier 0,True,80720449.39,1,0.25,HIPAA;DORA;SOX,EVP Digital Channels
+BS000373,Digital Workforce Service 0373,Risk,Tier 1,False,120090970.22,4,1.0,NIS2,EVP Risk
+BS000374,Core Ledger Service 0374,Risk,Tier 2,False,19441869.06,24,8.0,GDPR;HIPAA,EVP Risk
+BS000375,Operational Identity Service 0375,Legal,Tier 1,False,26778909.82,4,1.0,NIS2;GDPR;HIPAA,EVP Legal
+BS000376,Critical Risk Service 0376,Commercial Banking,Tier 2,True,59749456.73,24,8.0,DORA;NIS2,EVP Commercial Banking
+BS000377,Shared Trading Service 0377,Data & Analytics,Tier 1,True,60990106.86,4,1.0,NIS2;GDPR;DORA,EVP Data & Analytics
+BS000378,Enterprise Fulfilment Service 0378,Data & Analytics,Tier 2,False,40024196.18,24,8.0,GDPR,EVP Data & Analytics
+BS000379,Regulated Billing Service 0379,Risk,Tier 2,False,8614476.5,24,8.0,Internal Audit;NIS2;Operational Resilience,EVP Risk
+BS000380,Critical Treasury Service 0380,Wealth,Tier 2,False,5667229.55,24,8.0,SOX;GDPR,EVP Wealth
+BS000381,Core Portal Service 0381,Retail Banking,Tier 0,False,33540647.21,1,0.25,Operational Resilience;NIS2,EVP Retail Banking
+BS000382,Enterprise Treasury Service 0382,Legal,Tier 1,False,16270808.0,4,1.0,GDPR;DORA;HIPAA,EVP Legal
+BS000383,Shared Fulfilment Service 0383,M&A Office,Tier 3,True,42491694.68,72,24.0,NIS2;Internal Audit;GDPR,EVP M&A Office
+BS000384,Global Policy Service 0384,Wealth,Tier 0,False,183246980.98,1,0.25,PCI-DSS;Internal Audit;NIS2,EVP Wealth
+BS000385,Regulated Workforce Service 0385,Retail Banking,Tier 2,False,15087191.27,24,8.0,SOX;Internal Audit;PCI-DSS,EVP Retail Banking
+BS000386,Shared Ledger Service 0386,Insurance,Tier 2,False,86357906.41,24,8.0,NIS2;SOX,EVP Insurance
+BS000387,Regional Fulfilment Service 0387,Commercial Banking,Tier 2,False,80624758.13,24,8.0,NIS2;SOX;PCI-DSS,EVP Commercial Banking
+BS000388,Digital Risk Service 0388,Infrastructure,Tier 2,True,23388121.14,24,8.0,SOX,EVP Infrastructure
+BS000389,Digital Billing Service 0389,Legal,Tier 3,False,7245702.2,72,24.0,GDPR;Operational Resilience,EVP Legal
+BS000390,Global Compliance Service 0390,Insurance,Tier 3,True,101230870.66,72,24.0,GDPR;DORA,EVP Insurance
+BS000391,Regulated Policy Service 0391,Data & Analytics,Tier 1,False,30119024.66,4,1.0,SOX;GDPR;Operational Resilience,EVP Data & Analytics
+BS000392,Digital Risk Service 0392,Payments,Tier 2,True,20558431.69,24,8.0,SOX;HIPAA;Operational Resilience,EVP Payments
+BS000393,Digital Warehouse Service 0393,Risk,Tier 1,True,22169347.22,4,1.0,GDPR;NIS2,EVP Risk
+BS000394,Regional Payments Service 0394,Customer Operations,Tier 2,False,6724247.9,24,8.0,GDPR;DORA,EVP Customer Operations
+BS000395,Digital Risk Service 0395,Data & Analytics,Tier 2,False,3557243.93,24,8.0,Operational Resilience;NIS2,EVP Data & Analytics
+BS000396,Global Fulfilment Service 0396,Infrastructure,Tier 1,False,64614010.16,4,1.0,PCI-DSS,EVP Infrastructure
+BS000397,Core Payments Service 0397,Retail Banking,Tier 2,True,7559070.88,24,8.0,SOX;HIPAA,EVP Retail Banking
+BS000398,Shared Workforce Service 0398,Payments,Tier 3,False,517999249.77,72,24.0,Operational Resilience,EVP Payments
+BS000399,Regional Billing Service 0399,Wealth,Tier 0,False,18964550.43,1,0.25,GDPR,EVP Wealth
+BS000400,Core Data Service 0400,Finance,Tier 2,False,4487827.45,24,8.0,Internal Audit,EVP Finance
+BS000401,Digital Policy Service 0401,M&A Office,Tier 2,False,31363413.21,24,8.0,SOX,EVP M&A Office
+BS000402,Digital Compliance Service 0402,Security,Tier 1,True,173212806.47,4,1.0,HIPAA;SOX,EVP Security
+BS000403,Regional Pricing Service 0403,Finance,Tier 0,False,67242200.44,1,0.25,PCI-DSS;NIS2;HIPAA,EVP Finance
+BS000404,Regional Ledger Service 0404,M&A Office,Tier 1,True,60445538.48,4,1.0,DORA,EVP M&A Office
+BS000405,Regional Customer Service 0405,Supply Chain,Tier 3,False,2355109.64,72,24.0,Operational Resilience,EVP Supply Chain
+BS000406,Global Risk Service 0406,Supply Chain,Tier 0,True,29725037.68,1,0.25,NIS2;HIPAA,EVP Supply Chain
+BS000407,Digital Warehouse Service 0407,HR,Tier 1,False,9887771.63,4,1.0,Operational Resilience;HIPAA;NIS2,EVP HR
+BS000408,Enterprise Trading Service 0408,Insurance,Tier 0,True,7788918.16,1,0.25,Internal Audit;PCI-DSS,EVP Insurance
+BS000409,Enterprise Ledger Service 0409,Legal,Tier 1,False,36633179.16,4,1.0,DORA;NIS2;Internal Audit,EVP Legal
+BS000410,Operational Policy Service 0410,Retail Banking,Tier 2,True,1517977.81,24,8.0,PCI-DSS;SOX,EVP Retail Banking
+BS000411,Operational Treasury Service 0411,Insurance,Tier 1,True,7522214.26,4,1.0,NIS2,EVP Insurance
+BS000412,Operational Procurement Service 0412,Payments,Tier 2,False,9910316.34,24,8.0,Internal Audit;GDPR;NIS2,EVP Payments
+BS000413,Digital Pricing Service 0413,Wealth,Tier 2,False,7171214.47,24,8.0,HIPAA,EVP Wealth
+BS000414,Regional Procurement Service 0414,Insurance,Tier 3,False,27675257.82,72,24.0,GDPR,EVP Insurance
+BS000415,Operational Compliance Service 0415,Retail Banking,Tier 0,True,87653419.32,1,0.25,SOX;Internal Audit,EVP Retail Banking
+BS000416,Regulated Payments Service 0416,Digital Channels,Tier 3,True,47830717.69,72,24.0,PCI-DSS,EVP Digital Channels
+BS000417,Customer Policy Service 0417,M&A Office,Tier 2,False,40940162.44,24,8.0,PCI-DSS,EVP M&A Office
+BS000418,Shared Compliance Service 0418,Insurance,Tier 1,True,112975408.96,4,1.0,DORA,EVP Insurance
+BS000419,Critical Compliance Service 0419,Finance,Tier 3,False,17856707.39,72,24.0,NIS2;SOX;DORA,EVP Finance
+BS000420,Digital Customer Service 0420,Supply Chain,Tier 3,False,24985684.3,72,24.0,SOX;HIPAA,EVP Supply Chain
+BS000421,Digital Identity Service 0421,Legal,Tier 1,False,56539594.42,4,1.0,NIS2,EVP Legal
+BS000422,Critical Procurement Service 0422,Digital Channels,Tier 3,False,20911762.7,72,24.0,GDPR,EVP Digital Channels
+BS000423,Operational Trading Service 0423,Security,Tier 2,False,11560287.13,24,8.0,PCI-DSS,EVP Security
+BS000424,Digital Ledger Service 0424,Manufacturing,Tier 2,False,12413724.24,24,8.0,PCI-DSS,EVP Manufacturing
+BS000425,Shared Pricing Service 0425,HR,Tier 3,False,7280322.81,72,24.0,PCI-DSS;Internal Audit,EVP HR
+BS000426,Customer Billing Service 0426,Payments,Tier 2,True,28453408.35,24,8.0,GDPR;PCI-DSS,EVP Payments
+BS000427,Enterprise Warehouse Service 0427,Infrastructure,Tier 3,False,16136321.91,72,24.0,Internal Audit;SOX,EVP Infrastructure
+BS000428,Critical Payments Service 0428,Security,Tier 2,False,8627875.65,24,8.0,Internal Audit,EVP Security
+BS000429,Shared Claims Service 0429,Retail Banking,Tier 3,True,8636696.33,72,24.0,HIPAA;Operational Resilience;DORA,EVP Retail Banking
+BS000430,Global Data Service 0430,Data & Analytics,Tier 2,False,4725866.08,24,8.0,Operational Resilience;SOX,EVP Data & Analytics
+BS000431,Global Customer Service 0431,Commercial Banking,Tier 1,True,94537972.8,4,1.0,GDPR,EVP Commercial Banking
+BS000432,Shared Data Service 0432,Data & Analytics,Tier 2,True,19510814.05,24,8.0,HIPAA;Internal Audit,EVP Data & Analytics
+BS000433,Enterprise Payments Service 0433,Infrastructure,Tier 2,False,6926879.48,24,8.0,SOX;GDPR,EVP Infrastructure
+BS000434,Operational Compliance Service 0434,Insurance,Tier 1,False,78388609.63,4,1.0,GDPR,EVP Insurance
+BS000435,Customer Warehouse Service 0435,HR,Tier 0,False,33810071.12,1,0.25,GDPR;SOX;Operational Resilience,EVP HR
+BS000436,Enterprise Pricing Service 0436,Insurance,Tier 2,True,3808893.6,24,8.0,SOX;HIPAA,EVP Insurance
+BS000437,Enterprise Policy Service 0437,Manufacturing,Tier 0,True,192596423.32,1,0.25,HIPAA;PCI-DSS,EVP Manufacturing
+BS000438,Customer Customer Service 0438,Legal,Tier 1,False,17840469.04,4,1.0,GDPR;SOX,EVP Legal
+BS000439,Regulated Identity Service 0439,Commercial Banking,Tier 3,True,11412399.53,72,24.0,NIS2;DORA,EVP Commercial Banking
+BS000440,Customer Workforce Service 0440,Risk,Tier 2,True,18723650.63,24,8.0,GDPR;Operational Resilience;SOX,EVP Risk
+BS000441,Enterprise Billing Service 0441,M&A Office,Tier 3,False,62886881.9,72,24.0,HIPAA;Operational Resilience,EVP M&A Office
+BS000442,Customer Payments Service 0442,Finance,Tier 2,False,18293219.32,24,8.0,SOX,EVP Finance
+BS000443,Enterprise Identity Service 0443,Insurance,Tier 3,False,4784878.36,72,24.0,PCI-DSS,EVP Insurance
+BS000444,Shared Billing Service 0444,Supply Chain,Tier 2,False,32549244.13,24,8.0,PCI-DSS,EVP Supply Chain
+BS000445,Critical Identity Service 0445,Supply Chain,Tier 1,False,18892923.05,4,1.0,DORA;Internal Audit,EVP Supply Chain
+BS000446,Global Ledger Service 0446,Digital Channels,Tier 1,True,256978513.31,4,1.0,Operational Resilience,EVP Digital Channels
+BS000447,Critical Billing Service 0447,Finance,Tier 2,False,17872402.22,24,8.0,Operational Resilience;PCI-DSS;NIS2,EVP Finance
+BS000448,Digital Reporting Service 0448,M&A Office,Tier 1,False,2755880.68,4,1.0,PCI-DSS,EVP M&A Office
+BS000449,Digital Identity Service 0449,Supply Chain,Tier 2,True,26511826.37,24,8.0,SOX;DORA;Operational Resilience,EVP Supply Chain
+BS000450,Regional Customer Service 0450,Wealth,Tier 3,False,151949315.34,72,24.0,DORA;NIS2,EVP Wealth
+BS000451,Critical Workforce Service 0451,M&A Office,Tier 0,False,354519987.96,1,0.25,HIPAA,EVP M&A Office
+BS000452,Regulated Portal Service 0452,Legal,Tier 0,True,469328114.43,1,0.25,DORA;GDPR;SOX,EVP Legal
+BS000453,Core Identity Service 0453,Supply Chain,Tier 3,False,5828462.47,72,24.0,GDPR;SOX,EVP Supply Chain
+BS000454,Regional Risk Service 0454,Retail Banking,Tier 2,False,48806186.51,24,8.0,SOX;HIPAA,EVP Retail Banking
+BS000455,Regional Treasury Service 0455,Customer Operations,Tier 1,True,14557147.54,4,1.0,DORA,EVP Customer Operations
+BS000456,Regional Workforce Service 0456,Manufacturing,Tier 3,False,22901623.0,72,24.0,DORA;Operational Resilience,EVP Manufacturing
+BS000457,Global Compliance Service 0457,Insurance,Tier 3,False,4411619.12,72,24.0,GDPR;Internal Audit;NIS2,EVP Insurance
+BS000458,Regulated Portal Service 0458,Customer Operations,Tier 2,False,8807363.22,24,8.0,NIS2;PCI-DSS,EVP Customer Operations
+BS000459,Digital Payments Service 0459,Infrastructure,Tier 2,False,8504692.54,24,8.0,SOX,EVP Infrastructure
+BS000460,Operational Trading Service 0460,Commercial Banking,Tier 1,False,86546939.08,4,1.0,HIPAA,EVP Commercial Banking
+BS000461,Regulated Data Service 0461,Data & Analytics,Tier 0,False,151115348.79,1,0.25,NIS2,EVP Data & Analytics
+BS000462,Shared Treasury Service 0462,Insurance,Tier 2,True,24263936.28,24,8.0,DORA;SOX;Operational Resilience,EVP Insurance
+BS000463,Customer Procurement Service 0463,Data & Analytics,Tier 1,False,7292252.97,4,1.0,SOX;Internal Audit,EVP Data & Analytics
+BS000464,Core Payments Service 0464,HR,Tier 2,True,12701067.75,24,8.0,HIPAA,EVP HR
+BS000465,Enterprise Risk Service 0465,Retail Banking,Tier 3,True,7875536.51,72,24.0,Internal Audit,EVP Retail Banking
+BS000466,Core Policy Service 0466,M&A Office,Tier 0,False,163023725.1,1,0.25,GDPR,EVP M&A Office
+BS000467,Operational Portal Service 0467,Insurance,Tier 2,True,65398072.15,24,8.0,PCI-DSS;Internal Audit;DORA,EVP Insurance
+BS000468,Core Workforce Service 0468,Customer Operations,Tier 1,False,102955849.6,4,1.0,Operational Resilience;Internal Audit,EVP Customer Operations
+BS000469,Core Warehouse Service 0469,Payments,Tier 3,True,7797070.46,72,24.0,NIS2;HIPAA;Internal Audit,EVP Payments
+BS000470,Customer Pricing Service 0470,Legal,Tier 1,False,1582157.9,4,1.0,PCI-DSS;SOX;GDPR,EVP Legal
+BS000471,Shared Reporting Service 0471,Data & Analytics,Tier 2,True,2562110.55,24,8.0,Operational Resilience;PCI-DSS;DORA,EVP Data & Analytics
+BS000472,Regulated Reporting Service 0472,Security,Tier 2,False,85479716.85,24,8.0,DORA,EVP Security
+BS000473,Enterprise Portal Service 0473,HR,Tier 2,False,11508766.03,24,8.0,GDPR;DORA;NIS2,EVP HR
+BS000474,Shared Fulfilment Service 0474,HR,Tier 2,False,7835716.83,24,8.0,PCI-DSS;SOX;Operational Resilience,EVP HR
+BS000475,Shared Pricing Service 0475,Customer Operations,Tier 3,True,109007399.45,72,24.0,DORA;Operational Resilience;SOX,EVP Customer Operations
+BS000476,Core Claims Service 0476,Security,Tier 2,False,71963955.97,24,8.0,Operational Resilience;NIS2;DORA,EVP Security
+BS000477,Core Risk Service 0477,Infrastructure,Tier 3,False,18382204.25,72,24.0,Operational Resilience,EVP Infrastructure
+BS000478,Operational Settlement Service 0478,Retail Banking,Tier 3,True,12958423.52,72,24.0,PCI-DSS;Operational Resilience;DORA,EVP Retail Banking
+BS000479,Global Pricing Service 0479,Digital Channels,Tier 2,True,15474261.7,24,8.0,NIS2;PCI-DSS;Internal Audit,EVP Digital Channels
+BS000480,Operational Reporting Service 0480,Commercial Banking,Tier 2,False,22974123.57,24,8.0,HIPAA;SOX,EVP Commercial Banking
+BS000481,Enterprise Trading Service 0481,Wealth,Tier 0,False,364054805.17,1,0.25,NIS2;GDPR;PCI-DSS,EVP Wealth
+BS000482,Core Ledger Service 0482,Infrastructure,Tier 3,False,28480043.35,72,24.0,DORA,EVP Infrastructure
+BS000483,Customer Customer Service 0483,Wealth,Tier 2,False,39770338.81,24,8.0,DORA;SOX,EVP Wealth
+BS000484,Operational Warehouse Service 0484,Security,Tier 2,False,64759898.53,24,8.0,HIPAA,EVP Security
+BS000485,Digital Settlement Service 0485,HR,Tier 1,False,8896273.72,4,1.0,DORA;NIS2,EVP HR
+BS000486,Critical Payments Service 0486,Payments,Tier 3,True,41051916.58,72,24.0,HIPAA,EVP Payments
+BS000487,Enterprise Pricing Service 0487,Finance,Tier 2,True,12941818.49,24,8.0,GDPR;NIS2,EVP Finance
+BS000488,Operational Portal Service 0488,Manufacturing,Tier 2,True,1123877.46,24,8.0,SOX;GDPR;NIS2,EVP Manufacturing
+BS000489,Core Ledger Service 0489,Security,Tier 1,False,3099651.26,4,1.0,Operational Resilience;HIPAA,EVP Security
+BS000490,Regional Billing Service 0490,Customer Operations,Tier 3,False,5839003.04,72,24.0,PCI-DSS;NIS2;Operational Resilience,EVP Customer Operations
+BS000491,Global Treasury Service 0491,Legal,Tier 1,False,57778784.51,4,1.0,HIPAA;DORA;PCI-DSS,EVP Legal
+BS000492,Global Warehouse Service 0492,Infrastructure,Tier 1,False,36505233.32,4,1.0,Internal Audit;HIPAA,EVP Infrastructure
+BS000493,Shared Reporting Service 0493,Data & Analytics,Tier 3,False,21917662.53,72,24.0,SOX;NIS2,EVP Data & Analytics
+BS000494,Regional Customer Service 0494,Customer Operations,Tier 3,False,153013671.41,72,24.0,HIPAA;PCI-DSS;SOX,EVP Customer Operations
+BS000495,Critical Billing Service 0495,Wealth,Tier 1,True,7974727.92,4,1.0,HIPAA;Internal Audit,EVP Wealth
+BS000496,Critical Claims Service 0496,HR,Tier 2,True,17362500.77,24,8.0,SOX,EVP HR
+BS000497,Core Warehouse Service 0497,Insurance,Tier 3,False,25012320.34,72,24.0,SOX;PCI-DSS,EVP Insurance
+BS000498,Critical Claims Service 0498,Risk,Tier 3,False,7961273.81,72,24.0,NIS2;SOX,EVP Risk
+BS000499,Customer Claims Service 0499,Legal,Tier 2,False,18460787.01,24,8.0,DORA,EVP Legal
+BS000500,Regulated Warehouse Service 0500,HR,Tier 2,False,3078816.21,24,8.0,PCI-DSS;Operational Resilience;NIS2,EVP HR
+BS000501,Regulated Compliance Service 0501,Commercial Banking,Tier 3,False,84384714.81,72,24.0,NIS2,EVP Commercial Banking
+BS000502,Digital Portal Service 0502,Digital Channels,Tier 3,True,8454623.35,72,24.0,NIS2,EVP Digital Channels
+BS000503,Regional Procurement Service 0503,M&A Office,Tier 3,False,167173070.03,72,24.0,SOX;DORA,EVP M&A Office
+BS000504,Regional Procurement Service 0504,Infrastructure,Tier 2,False,17266490.98,24,8.0,Internal Audit;DORA;HIPAA,EVP Infrastructure
+BS000505,Customer Trading Service 0505,Wealth,Tier 1,False,99796691.25,4,1.0,Internal Audit;Operational Resilience,EVP Wealth
+BS000506,Core Customer Service 0506,HR,Tier 3,False,16875388.96,72,24.0,Operational Resilience;HIPAA,EVP HR
+BS000507,Operational Workforce Service 0507,Manufacturing,Tier 3,False,17299389.75,72,24.0,NIS2;PCI-DSS,EVP Manufacturing
+BS000508,Shared Trading Service 0508,Wealth,Tier 3,False,9412674.91,72,24.0,Operational Resilience;Internal Audit;PCI-DSS,EVP Wealth
+BS000509,Regional Risk Service 0509,Wealth,Tier 1,False,36719664.52,4,1.0,HIPAA;PCI-DSS,EVP Wealth
+BS000510,Critical Pricing Service 0510,Wealth,Tier 1,True,45698920.25,4,1.0,Operational Resilience,EVP Wealth
+BS000511,Critical Treasury Service 0511,M&A Office,Tier 3,True,7551944.52,72,24.0,SOX;Operational Resilience,EVP M&A Office
+BS000512,Customer Payments Service 0512,Data & Analytics,Tier 0,True,54581966.98,1,0.25,Operational Resilience,EVP Data & Analytics
+BS000513,Digital Identity Service 0513,Infrastructure,Tier 3,False,9146585.95,72,24.0,DORA;HIPAA;NIS2,EVP Infrastructure
+BS000514,Core Ledger Service 0514,Security,Tier 2,False,224554832.16,24,8.0,GDPR;Internal Audit,EVP Security
+BS000515,Operational Identity Service 0515,M&A Office,Tier 2,False,16212549.38,24,8.0,PCI-DSS;NIS2;HIPAA,EVP M&A Office
+BS000516,Global Billing Service 0516,Commercial Banking,Tier 3,False,97929203.95,72,24.0,DORA;GDPR;PCI-DSS,EVP Commercial Banking
+BS000517,Regional Ledger Service 0517,Infrastructure,Tier 2,True,14429935.14,24,8.0,Internal Audit,EVP Infrastructure
+BS000518,Global Portal Service 0518,Commercial Banking,Tier 2,True,23800482.36,24,8.0,Operational Resilience;DORA;Internal Audit,EVP Commercial Banking
+BS000519,Customer Procurement Service 0519,Supply Chain,Tier 2,False,4182833.82,24,8.0,Operational Resilience;Internal Audit,EVP Supply Chain
+BS000520,Critical Compliance Service 0520,Customer Operations,Tier 2,False,10943105.15,24,8.0,DORA,EVP Customer Operations
+BS000521,Customer Claims Service 0521,Risk,Tier 2,False,22557725.01,24,8.0,DORA,EVP Risk
+BS000522,Regulated Payments Service 0522,Insurance,Tier 2,True,102421193.21,24,8.0,DORA,EVP Insurance
+BS000523,Core Trading Service 0523,Payments,Tier 3,False,22843588.74,72,24.0,Internal Audit;SOX;Operational Resilience,EVP Payments
+BS000524,Operational Payments Service 0524,Infrastructure,Tier 2,False,81988733.32,24,8.0,SOX,EVP Infrastructure
+BS000525,Regional Billing Service 0525,Finance,Tier 1,True,65175141.33,4,1.0,PCI-DSS,EVP Finance
+BS000526,Digital Treasury Service 0526,Finance,Tier 2,False,107192996.51,24,8.0,GDPR;SOX;HIPAA,EVP Finance
+BS000527,Digital Settlement Service 0527,Legal,Tier 2,False,16769185.45,24,8.0,HIPAA,EVP Legal
+BS000528,Global Ledger Service 0528,Insurance,Tier 1,True,446536475.33,4,1.0,Internal Audit,EVP Insurance
+BS000529,Global Risk Service 0529,Legal,Tier 1,False,18884477.41,4,1.0,GDPR,EVP Legal
+BS000530,Enterprise Procurement Service 0530,Legal,Tier 2,False,7701240.54,24,8.0,DORA;Internal Audit;NIS2,EVP Legal
+BS000531,Customer Risk Service 0531,Customer Operations,Tier 2,False,4727664.45,24,8.0,GDPR,EVP Customer Operations
+BS000532,Global Identity Service 0532,Insurance,Tier 3,False,232436386.41,72,24.0,Internal Audit;DORA;HIPAA,EVP Insurance
+BS000533,Digital Fulfilment Service 0533,Insurance,Tier 1,False,79334130.78,4,1.0,PCI-DSS;NIS2;GDPR,EVP Insurance
+BS000534,Digital Policy Service 0534,Wealth,Tier 1,False,22303492.94,4,1.0,DORA,EVP Wealth
+BS000535,Operational Trading Service 0535,Manufacturing,Tier 3,False,70697796.72,72,24.0,PCI-DSS;SOX,EVP Manufacturing
+BS000536,Core Data Service 0536,Insurance,Tier 3,True,38128073.41,72,24.0,DORA;PCI-DSS;Operational Resilience,EVP Insurance
+BS000537,Regional Pricing Service 0537,HR,Tier 1,True,280063489.43,4,1.0,HIPAA;Internal Audit,EVP HR
+BS000538,Customer Identity Service 0538,Commercial Banking,Tier 1,False,5868857.56,4,1.0,PCI-DSS,EVP Commercial Banking
+BS000539,Shared Risk Service 0539,Manufacturing,Tier 1,False,24055892.77,4,1.0,DORA;HIPAA;NIS2,EVP Manufacturing
+BS000540,Critical Payments Service 0540,Retail Banking,Tier 2,True,10758712.8,24,8.0,DORA,EVP Retail Banking
+BS000541,Digital Ledger Service 0541,Data & Analytics,Tier 2,True,2040997.17,24,8.0,HIPAA,EVP Data & Analytics
+BS000542,Critical Payments Service 0542,Retail Banking,Tier 1,True,103403212.7,4,1.0,HIPAA;NIS2,EVP Retail Banking
+BS000543,Shared Warehouse Service 0543,Payments,Tier 0,False,46516923.81,1,0.25,PCI-DSS;Internal Audit;DORA,EVP Payments
+BS000544,Regulated Billing Service 0544,Insurance,Tier 2,True,40369872.13,24,8.0,DORA;GDPR;Operational Resilience,EVP Insurance
+BS000545,Core Warehouse Service 0545,Infrastructure,Tier 3,False,239903934.38,72,24.0,DORA,EVP Infrastructure
+BS000546,Core Payments Service 0546,Retail Banking,Tier 2,False,12132907.4,24,8.0,DORA;PCI-DSS;HIPAA,EVP Retail Banking
+BS000547,Regulated Pricing Service 0547,HR,Tier 2,False,11259600.71,24,8.0,DORA;Operational Resilience;Internal Audit,EVP HR
+BS000548,Operational Fulfilment Service 0548,Customer Operations,Tier 1,True,36701098.76,4,1.0,NIS2,EVP Customer Operations
+BS000549,Core Payments Service 0549,Supply Chain,Tier 1,True,95416182.81,4,1.0,HIPAA;GDPR,EVP Supply Chain
+BS000550,Digital Claims Service 0550,Digital Channels,Tier 1,True,17268633.77,4,1.0,PCI-DSS;SOX;Internal Audit,EVP Digital Channels
+BS000551,Customer Payments Service 0551,Security,Tier 3,False,8939071.15,72,24.0,PCI-DSS;HIPAA,EVP Security
+BS000552,Shared Pricing Service 0552,Risk,Tier 3,False,57248282.35,72,24.0,HIPAA;DORA;PCI-DSS,EVP Risk
+BS000553,Operational Settlement Service 0553,Infrastructure,Tier 3,False,27139566.95,72,24.0,Operational Resilience;NIS2,EVP Infrastructure
+BS000554,Enterprise Workforce Service 0554,Finance,Tier 3,False,1887566.35,72,24.0,SOX;HIPAA;GDPR,EVP Finance
+BS000555,Operational Trading Service 0555,M&A Office,Tier 3,False,4648564.5,72,24.0,Internal Audit;HIPAA,EVP M&A Office
+BS000556,Regional Portal Service 0556,Supply Chain,Tier 3,False,93302685.62,72,24.0,SOX;Operational Resilience;HIPAA,EVP Supply Chain
+BS000557,Customer Procurement Service 0557,Data & Analytics,Tier 1,False,50118851.68,4,1.0,DORA;PCI-DSS;Operational Resilience,EVP Data & Analytics
+BS000558,Core Workforce Service 0558,Infrastructure,Tier 1,False,13927434.26,4,1.0,Operational Resilience;SOX;NIS2,EVP Infrastructure
+BS000559,Customer Treasury Service 0559,Security,Tier 2,True,14835735.32,24,8.0,GDPR,EVP Security
+BS000560,Enterprise Ledger Service 0560,Infrastructure,Tier 2,False,18156884.17,24,8.0,GDPR;PCI-DSS;DORA,EVP Infrastructure
+BS000561,Shared Fulfilment Service 0561,Manufacturing,Tier 1,False,72354872.95,4,1.0,SOX;Internal Audit;NIS2,EVP Manufacturing
+BS000562,Regulated Payments Service 0562,Retail Banking,Tier 3,True,4016455.14,72,24.0,HIPAA;Internal Audit;NIS2,EVP Retail Banking
+BS000563,Regional Procurement Service 0563,Supply Chain,Tier 2,False,7095390.8,24,8.0,HIPAA;GDPR;SOX,EVP Supply Chain
+BS000564,Core Pricing Service 0564,Payments,Tier 2,True,24161024.39,24,8.0,SOX,EVP Payments
+BS000565,Global Data Service 0565,Legal,Tier 1,True,28860043.72,4,1.0,Operational Resilience,EVP Legal
+BS000566,Regulated Data Service 0566,Wealth,Tier 1,False,60420062.34,4,1.0,PCI-DSS;Operational Resilience,EVP Wealth
+BS000567,Operational Billing Service 0567,Payments,Tier 1,True,8329621.1,4,1.0,NIS2;Operational Resilience,EVP Payments
+BS000568,Customer Trading Service 0568,Wealth,Tier 3,False,26504936.16,72,24.0,PCI-DSS,EVP Wealth
+BS000569,Core Identity Service 0569,Customer Operations,Tier 2,False,59455695.6,24,8.0,NIS2;DORA,EVP Customer Operations
+BS000570,Digital Workforce Service 0570,Manufacturing,Tier 3,False,30569104.56,72,24.0,PCI-DSS,EVP Manufacturing
+BS000571,Regional Procurement Service 0571,M&A Office,Tier 1,False,37535945.51,4,1.0,HIPAA,EVP M&A Office
+BS000572,Enterprise Customer Service 0572,HR,Tier 2,False,16103191.45,24,8.0,GDPR,EVP HR
+BS000573,Critical Customer Service 0573,Wealth,Tier 2,False,7143145.13,24,8.0,PCI-DSS;SOX,EVP Wealth
+BS000574,Operational Billing Service 0574,Retail Banking,Tier 3,True,16531885.83,72,24.0,GDPR;HIPAA,EVP Retail Banking
+BS000575,Customer Identity Service 0575,Retail Banking,Tier 3,False,71533500.63,72,24.0,PCI-DSS;Operational Resilience;Internal Audit,EVP Retail Banking
+BS000576,Core Policy Service 0576,Risk,Tier 1,False,28257099.89,4,1.0,PCI-DSS;DORA,EVP Risk
+BS000577,Customer Pricing Service 0577,Legal,Tier 3,True,6724146.84,72,24.0,GDPR;PCI-DSS;Operational Resilience,EVP Legal
+BS000578,Regional Reporting Service 0578,Supply Chain,Tier 1,False,18742699.37,4,1.0,GDPR;Internal Audit,EVP Supply Chain
+BS000579,Shared Policy Service 0579,Legal,Tier 3,False,22318697.25,72,24.0,GDPR;DORA;SOX,EVP Legal
+BS000580,Enterprise Data Service 0580,Commercial Banking,Tier 1,True,21357665.39,4,1.0,Internal Audit;PCI-DSS;NIS2,EVP Commercial Banking
+BS000581,Regulated Fulfilment Service 0581,Commercial Banking,Tier 1,True,54932750.46,4,1.0,Operational Resilience;PCI-DSS;Internal Audit,EVP Commercial Banking
+BS000582,Core Settlement Service 0582,Infrastructure,Tier 3,False,31804811.36,72,24.0,DORA,EVP Infrastructure
+BS000583,Enterprise Ledger Service 0583,Commercial Banking,Tier 1,False,85640440.34,4,1.0,Internal Audit;SOX;GDPR,EVP Commercial Banking
+BS000584,Shared Claims Service 0584,Retail Banking,Tier 2,True,85661618.08,24,8.0,NIS2;PCI-DSS,EVP Retail Banking
+BS000585,Global Claims Service 0585,Risk,Tier 2,False,53513504.3,24,8.0,GDPR;PCI-DSS,EVP Risk
+BS000586,Regional Portal Service 0586,Legal,Tier 1,False,11526089.71,4,1.0,PCI-DSS;NIS2,EVP Legal
+BS000587,Global Treasury Service 0587,Digital Channels,Tier 2,False,6623351.77,24,8.0,NIS2,EVP Digital Channels
+BS000588,Regional Claims Service 0588,Commercial Banking,Tier 3,True,16463417.82,72,24.0,DORA,EVP Commercial Banking
+BS000589,Digital Warehouse Service 0589,Infrastructure,Tier 3,True,10893829.73,72,24.0,NIS2;HIPAA;Internal Audit,EVP Infrastructure
+BS000590,Global Payments Service 0590,Infrastructure,Tier 2,False,5115780.83,24,8.0,GDPR,EVP Infrastructure
+BS000591,Customer Risk Service 0591,Security,Tier 2,False,11008068.11,24,8.0,SOX;DORA;PCI-DSS,EVP Security
+BS000592,Digital Portal Service 0592,Legal,Tier 1,False,19111913.42,4,1.0,GDPR;NIS2,EVP Legal
+BS000593,Customer Identity Service 0593,Wealth,Tier 1,False,15382701.41,4,1.0,SOX;GDPR,EVP Wealth
+BS000594,Shared Claims Service 0594,M&A Office,Tier 1,True,22757793.82,4,1.0,GDPR,EVP M&A Office
+BS000595,Digital Risk Service 0595,Finance,Tier 3,False,65417210.24,72,24.0,Internal Audit,EVP Finance
+BS000596,Global Treasury Service 0596,Security,Tier 3,False,22279150.53,72,24.0,SOX;HIPAA;DORA,EVP Security
+BS000597,Regulated Billing Service 0597,Manufacturing,Tier 3,False,271368974.86,72,24.0,Internal Audit;SOX;GDPR,EVP Manufacturing
+BS000598,Digital Ledger Service 0598,Security,Tier 2,False,21586075.34,24,8.0,DORA;Internal Audit;Operational Resilience,EVP Security
+BS000599,Shared Policy Service 0599,Customer Operations,Tier 2,False,13006081.95,24,8.0,PCI-DSS;Internal Audit,EVP Customer Operations
+BS000600,Digital Risk Service 0600,Customer Operations,Tier 2,False,17975965.45,24,8.0,PCI-DSS,EVP Customer Operations
+BS000601,Critical Risk Service 0601,Customer Operations,Tier 2,False,23727402.84,24,8.0,GDPR,EVP Customer Operations
+BS000602,Regional Portal Service 0602,Security,Tier 2,False,28883450.81,24,8.0,PCI-DSS;Internal Audit;DORA,EVP Security
+BS000603,Critical Portal Service 0603,Data & Analytics,Tier 1,False,316289699.87,4,1.0,SOX;PCI-DSS;HIPAA,EVP Data & Analytics
+BS000604,Enterprise Pricing Service 0604,Insurance,Tier 1,True,12710438.64,4,1.0,GDPR;NIS2,EVP Insurance
+BS000605,Digital Fulfilment Service 0605,Infrastructure,Tier 3,True,46036755.32,72,24.0,Operational Resilience;NIS2,EVP Infrastructure
+BS000606,Regional Settlement Service 0606,Manufacturing,Tier 2,True,22488748.09,24,8.0,NIS2;GDPR,EVP Manufacturing
+BS000607,Shared Risk Service 0607,Finance,Tier 3,False,3178094.89,72,24.0,NIS2;Operational Resilience;HIPAA,EVP Finance
+BS000608,Operational Billing Service 0608,Supply Chain,Tier 1,False,75191994.36,4,1.0,DORA;HIPAA;NIS2,EVP Supply Chain
+BS000609,Customer Customer Service 0609,M&A Office,Tier 2,False,72159241.11,24,8.0,GDPR;HIPAA;DORA,EVP M&A Office
+BS000610,Shared Compliance Service 0610,Infrastructure,Tier 1,False,12545751.26,4,1.0,NIS2;Operational Resilience;PCI-DSS,EVP Infrastructure
+BS000611,Shared Data Service 0611,Infrastructure,Tier 1,False,31894987.07,4,1.0,SOX;Internal Audit,EVP Infrastructure
+BS000612,Regulated Treasury Service 0612,HR,Tier 0,False,9387347.02,1,0.25,PCI-DSS;NIS2;Operational Resilience,EVP HR
+BS000613,Enterprise Trading Service 0613,Security,Tier 1,True,8065445.92,4,1.0,NIS2;GDPR,EVP Security
+BS000614,Global Workforce Service 0614,Risk,Tier 3,False,56674364.17,72,24.0,DORA,EVP Risk
+BS000615,Regulated Procurement Service 0615,Digital Channels,Tier 2,False,10712714.27,24,8.0,NIS2;HIPAA;PCI-DSS,EVP Digital Channels
+BS000616,Digital Policy Service 0616,Customer Operations,Tier 2,False,5284648.82,24,8.0,NIS2;HIPAA;Internal Audit,EVP Customer Operations
+BS000617,Digital Settlement Service 0617,Wealth,Tier 2,True,23032260.02,24,8.0,GDPR,EVP Wealth
+BS000618,Regulated Workforce Service 0618,Wealth,Tier 2,False,10072770.24,24,8.0,GDPR,EVP Wealth
+BS000619,Global Payments Service 0619,Commercial Banking,Tier 2,False,10660929.59,24,8.0,SOX;DORA;GDPR,EVP Commercial Banking
+BS000620,Customer Compliance Service 0620,Insurance,Tier 1,False,72641380.23,4,1.0,Operational Resilience,EVP Insurance
+BS000621,Operational Policy Service 0621,HR,Tier 3,False,4985744.53,72,24.0,HIPAA;DORA,EVP HR
+BS000622,Core Ledger Service 0622,Supply Chain,Tier 3,False,6610026.8,72,24.0,HIPAA;Internal Audit;SOX,EVP Supply Chain
+BS000623,Operational Portal Service 0623,Insurance,Tier 3,True,21199496.54,72,24.0,Operational Resilience;GDPR,EVP Insurance
+BS000624,Customer Payments Service 0624,HR,Tier 2,False,51979021.88,24,8.0,GDPR;Operational Resilience;NIS2,EVP HR
+BS000625,Global Compliance Service 0625,Customer Operations,Tier 1,False,125744546.29,4,1.0,SOX;HIPAA;PCI-DSS,EVP Customer Operations
+BS000626,Regulated Warehouse Service 0626,Payments,Tier 3,False,8609976.16,72,24.0,PCI-DSS;Internal Audit;DORA,EVP Payments
+BS000627,Global Payments Service 0627,Finance,Tier 2,True,50179376.0,24,8.0,Operational Resilience;SOX,EVP Finance
+BS000628,Core Data Service 0628,Risk,Tier 0,False,26435185.0,1,0.25,Internal Audit;HIPAA,EVP Risk
+BS000629,Customer Reporting Service 0629,Supply Chain,Tier 2,False,133395676.6,24,8.0,DORA;SOX;Internal Audit,EVP Supply Chain
+BS000630,Regional Portal Service 0630,Risk,Tier 3,False,5141481.74,72,24.0,Internal Audit;GDPR;HIPAA,EVP Risk
+BS000631,Core Fulfilment Service 0631,Data & Analytics,Tier 2,False,77154980.59,24,8.0,HIPAA,EVP Data & Analytics
+BS000632,Customer Warehouse Service 0632,Finance,Tier 3,False,8691579.86,72,24.0,PCI-DSS;HIPAA;NIS2,EVP Finance
+BS000633,Customer Risk Service 0633,HR,Tier 3,False,163867888.02,72,24.0,PCI-DSS;GDPR;Operational Resilience,EVP HR
+BS000634,Enterprise Customer Service 0634,Risk,Tier 1,False,61727461.24,4,1.0,SOX;PCI-DSS;GDPR,EVP Risk
+BS000635,Regulated Data Service 0635,Payments,Tier 3,True,5852513.69,72,24.0,HIPAA,EVP Payments
+BS000636,Global Treasury Service 0636,Digital Channels,Tier 2,False,10074697.82,24,8.0,HIPAA;Operational Resilience,EVP Digital Channels
+BS000637,Core Risk Service 0637,Wealth,Tier 2,False,42257792.21,24,8.0,GDPR,EVP Wealth
+BS000638,Global Data Service 0638,Finance,Tier 0,False,199369775.71,1,0.25,DORA;Internal Audit;NIS2,EVP Finance
+BS000639,Enterprise Trading Service 0639,Security,Tier 3,False,16555233.76,72,24.0,Internal Audit;GDPR;NIS2,EVP Security
+BS000640,Critical Portal Service 0640,M&A Office,Tier 1,False,33831767.09,4,1.0,GDPR;NIS2;HIPAA,EVP M&A Office
+BS000641,Digital Treasury Service 0641,Digital Channels,Tier 1,True,74177765.05,4,1.0,Internal Audit;NIS2,EVP Digital Channels
+BS000642,Enterprise Ledger Service 0642,Legal,Tier 2,True,20686218.63,24,8.0,NIS2;PCI-DSS,EVP Legal
+BS000643,Core Settlement Service 0643,Infrastructure,Tier 1,False,7763402.95,4,1.0,GDPR;PCI-DSS,EVP Infrastructure
+BS000644,Critical Workforce Service 0644,Supply Chain,Tier 1,False,13170831.89,4,1.0,HIPAA,EVP Supply Chain
+BS000645,Digital Procurement Service 0645,Security,Tier 2,False,23176095.46,24,8.0,HIPAA;PCI-DSS;SOX,EVP Security
+BS000646,Customer Risk Service 0646,Finance,Tier 2,True,68136980.64,24,8.0,PCI-DSS;HIPAA,EVP Finance
+BS000647,Core Claims Service 0647,HR,Tier 3,False,105854986.82,72,24.0,NIS2;DORA;GDPR,EVP HR
+BS000648,Enterprise Trading Service 0648,Manufacturing,Tier 2,False,42181081.08,24,8.0,NIS2,EVP Manufacturing
+BS000649,Customer Risk Service 0649,M&A Office,Tier 3,True,24545027.29,72,24.0,PCI-DSS;Internal Audit,EVP M&A Office
+BS000650,Operational Risk Service 0650,Infrastructure,Tier 2,False,40779712.56,24,8.0,DORA,EVP Infrastructure
+BS000651,Digital Data Service 0651,Supply Chain,Tier 2,False,8593993.31,24,8.0,SOX;Internal Audit,EVP Supply Chain
+BS000652,Critical Warehouse Service 0652,Digital Channels,Tier 2,True,15118745.32,24,8.0,GDPR;DORA,EVP Digital Channels
+BS000653,Global Reporting Service 0653,Payments,Tier 2,False,7227879.12,24,8.0,DORA;GDPR;PCI-DSS,EVP Payments
+BS000654,Regional Portal Service 0654,Security,Tier 3,False,4530682.41,72,24.0,GDPR;NIS2;Operational Resilience,EVP Security
+BS000655,Operational Reporting Service 0655,Manufacturing,Tier 2,False,25826300.06,24,8.0,GDPR;PCI-DSS;DORA,EVP Manufacturing
+BS000656,Regulated Workforce Service 0656,Manufacturing,Tier 1,False,39501582.89,4,1.0,HIPAA;Internal Audit,EVP Manufacturing
+BS000657,Core Reporting Service 0657,Security,Tier 2,False,38126408.37,24,8.0,HIPAA;Internal Audit;PCI-DSS,EVP Security
+BS000658,Operational Policy Service 0658,Customer Operations,Tier 3,True,32629358.68,72,24.0,PCI-DSS,EVP Customer Operations
+BS000659,Global Billing Service 0659,Commercial Banking,Tier 0,False,81790500.75,1,0.25,Operational Resilience;DORA,EVP Commercial Banking
+BS000660,Customer Workforce Service 0660,Wealth,Tier 2,False,33008588.14,24,8.0,Internal Audit,EVP Wealth
+BS000661,Regulated Pricing Service 0661,Payments,Tier 3,True,17073678.97,72,24.0,NIS2;Operational Resilience;SOX,EVP Payments
+BS000662,Shared Data Service 0662,Data & Analytics,Tier 3,True,28181619.56,72,24.0,NIS2,EVP Data & Analytics
+BS000663,Digital Payments Service 0663,Retail Banking,Tier 3,True,8050471.0,72,24.0,NIS2;Internal Audit,EVP Retail Banking
+BS000664,Digital Risk Service 0664,Payments,Tier 2,False,26874179.62,24,8.0,NIS2;GDPR;Internal Audit,EVP Payments
+BS000665,Global Settlement Service 0665,Customer Operations,Tier 2,False,37328193.38,24,8.0,SOX,EVP Customer Operations
+BS000666,Core Warehouse Service 0666,Digital Channels,Tier 2,True,8566334.01,24,8.0,PCI-DSS;GDPR,EVP Digital Channels
+BS000667,Customer Fulfilment Service 0667,Supply Chain,Tier 3,False,18944331.38,72,24.0,Operational Resilience;GDPR,EVP Supply Chain
+BS000668,Digital Risk Service 0668,Infrastructure,Tier 2,False,9011726.57,24,8.0,HIPAA;PCI-DSS,EVP Infrastructure
+BS000669,Regulated Risk Service 0669,Legal,Tier 3,False,10027507.59,72,24.0,Operational Resilience;HIPAA;NIS2,EVP Legal
+BS000670,Regional Customer Service 0670,Insurance,Tier 2,True,5191730.92,24,8.0,Internal Audit,EVP Insurance
+BS000671,Operational Trading Service 0671,M&A Office,Tier 2,False,72012654.44,24,8.0,Operational Resilience,EVP M&A Office
+BS000672,Customer Pricing Service 0672,Customer Operations,Tier 2,True,57785803.67,24,8.0,GDPR;DORA,EVP Customer Operations
+BS000673,Core Warehouse Service 0673,Customer Operations,Tier 2,False,32319368.09,24,8.0,Internal Audit;GDPR;HIPAA,EVP Customer Operations
+BS000674,Digital Workforce Service 0674,Commercial Banking,Tier 3,False,156632921.66,72,24.0,DORA;SOX,EVP Commercial Banking
+BS000675,Regional Identity Service 0675,Customer Operations,Tier 2,False,14531506.81,24,8.0,SOX;HIPAA,EVP Customer Operations
+BS000676,Digital Payments Service 0676,Data & Analytics,Tier 2,False,502415817.56,24,8.0,NIS2,EVP Data & Analytics
+BS000677,Operational Policy Service 0677,Manufacturing,Tier 2,True,13932260.99,24,8.0,Operational Resilience;Internal Audit,EVP Manufacturing
+BS000678,Digital Ledger Service 0678,Commercial Banking,Tier 2,False,23693532.7,24,8.0,HIPAA;DORA;SOX,EVP Commercial Banking
+BS000679,Global Identity Service 0679,Supply Chain,Tier 2,False,11552868.22,24,8.0,Operational Resilience,EVP Supply Chain
+BS000680,Regulated Compliance Service 0680,Legal,Tier 1,False,48513117.38,4,1.0,SOX;Internal Audit;NIS2,EVP Legal
+BS000681,Digital Workforce Service 0681,Data & Analytics,Tier 1,False,80757636.53,4,1.0,Internal Audit;NIS2,EVP Data & Analytics
+BS000682,Regulated Settlement Service 0682,Insurance,Tier 2,True,15786914.64,24,8.0,PCI-DSS;GDPR,EVP Insurance
+BS000683,Regulated Policy Service 0683,M&A Office,Tier 2,True,126327946.27,24,8.0,Operational Resilience;SOX;DORA,EVP M&A Office
+BS000684,Regional Customer Service 0684,M&A Office,Tier 2,True,23279046.29,24,8.0,HIPAA,EVP M&A Office
+BS000685,Core Fulfilment Service 0685,Insurance,Tier 0,True,84334103.74,1,0.25,NIS2,EVP Insurance
+BS000686,Customer Identity Service 0686,Security,Tier 2,True,6583667.61,24,8.0,SOX;Internal Audit;NIS2,EVP Security
+BS000687,Customer Portal Service 0687,Risk,Tier 1,False,51040788.57,4,1.0,SOX,EVP Risk
+BS000688,Customer Fulfilment Service 0688,Customer Operations,Tier 3,True,15441512.49,72,24.0,GDPR;DORA,EVP Customer Operations
+BS000689,Shared Policy Service 0689,HR,Tier 3,True,9165310.32,72,24.0,Operational Resilience;HIPAA,EVP HR
+BS000690,Regulated Reporting Service 0690,Security,Tier 1,False,13710394.37,4,1.0,NIS2,EVP Security
+BS000691,Regulated Treasury Service 0691,M&A Office,Tier 2,False,338129568.16,24,8.0,SOX;HIPAA;NIS2,EVP M&A Office
+BS000692,Global Trading Service 0692,Security,Tier 1,False,24105767.62,4,1.0,SOX;HIPAA,EVP Security
+BS000693,Global Payments Service 0693,Legal,Tier 1,False,6485650.65,4,1.0,DORA;PCI-DSS;SOX,EVP Legal
+BS000694,Regulated Compliance Service 0694,M&A Office,Tier 1,False,14942843.68,4,1.0,DORA;Operational Resilience,EVP M&A Office
+BS000695,Regulated Pricing Service 0695,Commercial Banking,Tier 1,False,30433728.49,4,1.0,NIS2;Operational Resilience;SOX,EVP Commercial Banking
+BS000696,Critical Workforce Service 0696,Wealth,Tier 2,False,32649292.23,24,8.0,GDPR;SOX;HIPAA,EVP Wealth
+BS000697,Regulated Risk Service 0697,Data & Analytics,Tier 3,False,32942565.84,72,24.0,DORA;PCI-DSS,EVP Data & Analytics
+BS000698,Critical Settlement Service 0698,Customer Operations,Tier 1,False,67799316.51,4,1.0,Internal Audit;HIPAA,EVP Customer Operations
+BS000699,Operational Fulfilment Service 0699,Retail Banking,Tier 2,True,8803444.85,24,8.0,HIPAA;Operational Resilience,EVP Retail Banking
+BS000700,Critical Procurement Service 0700,Commercial Banking,Tier 2,False,26022822.2,24,8.0,SOX;DORA;GDPR,EVP Commercial Banking
+BS000701,Global Claims Service 0701,Supply Chain,Tier 3,True,6826581.47,72,24.0,DORA;NIS2;HIPAA,EVP Supply Chain
+BS000702,Critical Data Service 0702,Customer Operations,Tier 2,False,9051062.56,24,8.0,DORA,EVP Customer Operations
+BS000703,Operational Treasury Service 0703,Insurance,Tier 1,True,11737586.75,4,1.0,HIPAA;DORA,EVP Insurance
+BS000704,Enterprise Fulfilment Service 0704,Insurance,Tier 2,True,4841679.68,24,8.0,Operational Resilience;HIPAA;Internal Audit,EVP Insurance
+BS000705,Operational Billing Service 0705,Insurance,Tier 2,True,57692078.7,24,8.0,HIPAA;GDPR,EVP Insurance
+BS000706,Customer Payments Service 0706,Manufacturing,Tier 3,False,38166658.22,72,24.0,GDPR;Internal Audit;HIPAA,EVP Manufacturing
+BS000707,Shared Compliance Service 0707,Retail Banking,Tier 2,True,52395533.49,24,8.0,SOX,EVP Retail Banking
+BS000708,Critical Compliance Service 0708,Manufacturing,Tier 2,False,18685238.27,24,8.0,HIPAA;Operational Resilience,EVP Manufacturing
+BS000709,Core Workforce Service 0709,Supply Chain,Tier 0,False,147192444.88,1,0.25,SOX,EVP Supply Chain
+BS000710,Operational Reporting Service 0710,HR,Tier 2,True,2578147.45,24,8.0,NIS2;GDPR;HIPAA,EVP HR
+BS000711,Customer Procurement Service 0711,Digital Channels,Tier 3,False,46241872.18,72,24.0,GDPR;SOX,EVP Digital Channels
+BS000712,Critical Trading Service 0712,Supply Chain,Tier 2,False,21743639.0,24,8.0,NIS2;GDPR,EVP Supply Chain
+BS000713,Customer Policy Service 0713,Data & Analytics,Tier 2,True,35670000.1,24,8.0,PCI-DSS,EVP Data & Analytics
+BS000714,Regional Payments Service 0714,Data & Analytics,Tier 3,False,27180914.96,72,24.0,SOX;PCI-DSS;Internal Audit,EVP Data & Analytics
+BS000715,Operational Settlement Service 0715,Legal,Tier 3,False,6041961.87,72,24.0,Operational Resilience;Internal Audit;GDPR,EVP Legal
+BS000716,Digital Fulfilment Service 0716,Security,Tier 2,False,3444041.68,24,8.0,DORA;NIS2;HIPAA,EVP Security
+BS000717,Digital Policy Service 0717,Supply Chain,Tier 2,False,8176219.33,24,8.0,DORA;NIS2,EVP Supply Chain
+BS000718,Core Settlement Service 0718,Supply Chain,Tier 2,False,33311359.05,24,8.0,SOX;HIPAA,EVP Supply Chain
+BS000719,Regulated Workforce Service 0719,Wealth,Tier 2,False,38228832.13,24,8.0,PCI-DSS,EVP Wealth
+BS000720,Regulated Settlement Service 0720,Customer Operations,Tier 2,False,3973919.7,24,8.0,Operational Resilience;SOX,EVP Customer Operations

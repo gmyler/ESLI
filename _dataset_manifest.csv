@@ -1,0 +1,16 @@
+file,rows
+business_services.csv,720
+systems.csv,12000
+applications.csv,3284
+dependencies.csv,102000
+cost_lines.csv,150000
+licensing_entitlements.csv,60000
+vendor_claims.csv,30000
+oem_lifecycle.csv,24000
+vulnerabilities.csv,84000
+security_controls.csv,48000
+regulatory_mappings.csv,26400
+market_signals.csv,14400
+scenario_results.csv,360000
+execution_actions.csv,36000
+decision_outcomes.csv,20400
