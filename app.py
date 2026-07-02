@@ -267,14 +267,33 @@ def file_health(data_dir: str) -> pd.DataFrame:
     rows = []
 
     for key, filename in REQUIRED_FILES.items():
-        path = base / filename
-        exists = path.exists()
+        csv_path = base / filename
+        gz_path = base / f"{filename}.gz"
+        parquet_path = base / filename.replace(".csv", ".parquet")
+
+        if csv_path.exists():
+            path = csv_path
+            file_used = filename
+            exists = True
+        elif gz_path.exists():
+            path = gz_path
+            file_used = f"{filename}.gz"
+            exists = True
+        elif parquet_path.exists():
+            path = parquet_path
+            file_used = filename.replace(".csv", ".parquet")
+            exists = True
+        else:
+            path = csv_path
+            file_used = filename
+            exists = False
+
         size_mb = path.stat().st_size / (1024 * 1024) if exists else 0
 
         rows.append(
             {
                 "table": key,
-                "file": filename,
+                "file": file_used,
                 "exists": exists,
                 "size_mb": round(size_mb, 2),
             }
