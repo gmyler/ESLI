@@ -244,56 +244,108 @@ def first_existing(row: pd.Series, candidates: list[str], default: str = ""):
 
 @st.cache_data(show_spinner="Loading ESLI data files...")
 def load_all_data(data_dir: str) -> dict[str, pd.DataFrame]:
-    base = Path(data_dir)
+    base = Path(data_dir.strip() or ".")
     data: dict[str, pd.DataFrame] = {}
 
-    for key, filename in REQUIRED_FILES.items():
-        path = base / filename
-        if not path.exists():
-            data[key] = empty_df()
-            continue
+    candidate_dirs = [base]
 
-        try:
-            data[key] = pd.read_csv(path, low_memory=False)
-        except Exception as exc:
-            st.warning(f"Could not load {filename}: {exc}")
-            data[key] = empty_df()
+    # Automatically check repo root and data/ as fallbacks.
+    if base != Path("."):
+        candidate_dirs.append(Path("."))
+
+    if base != Path("data"):
+        candidate_dirs.append(Path("data"))
+
+    # Deduplicate while preserving order.
+    candidate_dirs = list(dict.fromkeys(candidate_dirs))
+
+    def read_first_available(filename: str) -> pd.DataFrame:
+        stem = filename.replace(".csv", "")
+
+        candidates = []
+        for d in candidate_dirs:
+            candidates.extend(
+                [
+                    d / filename,                 # systems.csv
+                    d / f"{filename}.gz",         # systems.csv.gz
+                    d / f"{filename}.zip",        # systems.csv.zip
+                    d / f"{stem}.parquet",        # systems.parquet
+                ]
+            )
+
+        for path in candidates:
+            if not path.exists():
+                continue
+
+            try:
+                if path.suffix == ".gz":
+                    return pd.read_csv(path, compression="gzip", low_memory=False)
+
+                if path.suffix == ".zip":
+                    return pd.read_csv(path, compression="zip", low_memory=False)
+
+                if path.suffix == ".parquet":
+                    return pd.read_parquet(path)
+
+                return pd.read_csv(path, low_memory=False)
+
+            except Exception as exc:
+                st.warning(f"Found {path}, but could not load it: {exc}")
+                return empty_df()
+
+        return empty_df()
+
+    for key, filename in REQUIRED_FILES.items():
+        data[key] = read_first_available(filename)
 
     return data
 
 
 def file_health(data_dir: str) -> pd.DataFrame:
-    base = Path(data_dir)
+    base = Path(data_dir.strip() or ".")
+
+    candidate_dirs = [base]
+
+    # Automatically check repo root and data/ as fallbacks.
+    if base != Path("."):
+        candidate_dirs.append(Path("."))
+
+    if base != Path("data"):
+        candidate_dirs.append(Path("data"))
+
+    # Deduplicate while preserving order.
+    candidate_dirs = list(dict.fromkeys(candidate_dirs))
+
     rows = []
 
     for key, filename in REQUIRED_FILES.items():
-        csv_path = base / filename
-        gz_path = base / f"{filename}.gz"
-        parquet_path = base / filename.replace(".csv", ".parquet")
+        stem = filename.replace(".csv", "")
 
-        if csv_path.exists():
-            path = csv_path
-            file_used = filename
-            exists = True
-        elif gz_path.exists():
-            path = gz_path
-            file_used = f"{filename}.gz"
-            exists = True
-        elif parquet_path.exists():
-            path = parquet_path
-            file_used = filename.replace(".csv", ".parquet")
-            exists = True
-        else:
-            path = csv_path
-            file_used = filename
-            exists = False
+        candidates = []
+        for d in candidate_dirs:
+            candidates.extend(
+                [
+                    d / filename,
+                    d / f"{filename}.gz",
+                    d / f"{filename}.zip",
+                    d / f"{stem}.parquet",
+                ]
+            )
 
-        size_mb = path.stat().st_size / (1024 * 1024) if exists else 0
+        found_path = None
+        for path in candidates:
+            if path.exists():
+                found_path = path
+                break
+
+        exists = found_path is not None
+        size_mb = found_path.stat().st_size / (1024 * 1024) if exists else 0
 
         rows.append(
             {
                 "table": key,
-                "file": file_used,
+                "file": filename,
+                "file_used": str(found_path) if exists else "",
                 "exists": exists,
                 "size_mb": round(size_mb, 2),
             }
@@ -3284,7 +3336,13 @@ This app expects the generated CSV files in a local `data/` folder.
 
 def main() -> None:
     st.sidebar.header("Data")
-    data_dir = st.sidebar.text_input("Data directory", value="data")
+
+    if Path("data/systems.csv").exists() or Path("data/systems.csv.gz").exists():
+        default_data_dir = "data"
+    else:
+        default_data_dir = "."
+
+    data_dir = st.sidebar.text_input("Data directory", value=default_data_dir)
 
     data = load_all_data(data_dir)
     profile = build_system_profile(data)
